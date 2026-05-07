@@ -1,8 +1,13 @@
+import { Header } from './components/header';
+import { Hero } from './components/hero';
+import { About } from './components/about';
 
 export function App() {
   return (
-    <>
-      <h1 className='text-5xl font-bold'>srfgtbg</h1>
-    </>
-  )
+    <div className="">
+      <Header />
+      <Hero />
+      <About />
+    </div>
+  );
 }
