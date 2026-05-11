@@ -21,5 +21,5 @@ export const Values = () => {
             </div>
         </div>
     </section>
-  );
+  );ртпппппп
 };
