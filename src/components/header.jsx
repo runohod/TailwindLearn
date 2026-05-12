@@ -8,7 +8,7 @@ export const Header = () => {
       <div className="mt-[20px] flex max-w-[1230px] w-full justify-between mx-auto px-4 items-center mb-[20px]">
         <div className="flex gap-[60px]">
           <div className="">
-            <img src={logo} alt="logo" className="w-[130px] h-[22px]" />
+            <img src={logo} alt="logo" className="w-32.5 h-5.5" />
           </div>
           <nav className="font-bold">
             <ul className="flex gap-[40px]">

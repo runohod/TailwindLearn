@@ -1,13 +1,16 @@
+/* index.css */
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #FF5A30;
-  --color-heading: #1E212C;  
-  --font-ubuntu: "Ubuntu", sans-serif;
-}
+  /* Расстояния и размеры (для max-w, mt, p и т.д.) */
+  --spacing-1230: 1230px;
+  --spacing-800: 800px;
+  --spacing-660: 660px;
+  --spacing-120: 120px;
+  --spacing-60: 60px;
+  --spacing-24: 24px;
 
-:root {
-  font-family: var(--font-ubuntu);
-  color: var(--color-text);
-  background-color: #ffffff;
+  /* Размеры шрифтов */
+  --font-size-37: 37px;
+  --font-size-18: 18px;
 }

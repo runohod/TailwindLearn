@@ -1,7 +1,8 @@
-import { Header } from './components/header';
-import { Hero } from './components/hero';
-import { About } from './components/about';
-import { Values } from './components/values';
+import { Header } from "./components/header.jsx";
+import { Hero } from "./components/hero.jsx";
+import { About } from "./components/about.jsx";
+import { Values } from "./components/values.jsx";
+// import { AskTable } from ""./components/askTable.jsx";
 
 export function App() {
   return (
@@ -10,6 +11,7 @@ export function App() {
       <Hero />
       <About />
       <Values />
+      {/* <AskTable /> */}
     </div>
   );
 }

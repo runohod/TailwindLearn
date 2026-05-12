@@ -2,9 +2,8 @@ import bgHeader from "../img/bgHeader.jpg";
 
 export const Hero = () => {
   return (
-    <section 
-      className="relative w-full h-[988px] bg-cover bg-center bg-no-repeat flex items-center"
-      style={{ backgroundImage: `linear-gradient(rgba(30, 33, 44, 0.6), rgba(30, 33, 44, 0.6)), url(${bgHeader})` }}
+    <section className="relative w-full h-[988px] bg-cover bg-center bg-no-repeat flex items-center bg-[image:linear-gradient(rgba(30,33,44,0.6),rgba(30,33,44,0.6)),var(--bg-image)]"
+      style={{ '--bg-image': `url(${bgHeader})` }}
     >
       <div className="max-w-[1230px] w-full mx-auto px-4 text-white">
         <h1 className="text-6xl font-black uppercase leading-tight max-w-[577px]">
