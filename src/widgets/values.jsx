@@ -1,6 +1,6 @@
 export const Values = () => {
   return (
-    <section className="mt-[180px] bg-white">
+    <section className="mt-[180px] mb-[270px] bg-white">
       <div className="max-w-[1230px] mx-auto px-4">
         <div className="flex flex-col items-center">
           <h2 className="text-[46px] font-black leading-tight text-[#1E212C] text-center">

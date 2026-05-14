@@ -2,7 +2,6 @@
 @import "tailwindcss";
 
 @theme {
-  /* Расстояния и размеры (для max-w, mt, p и т.д.) */
   --spacing-1230: 1230px;
   --spacing-800: 800px;
   --spacing-660: 660px;
@@ -10,7 +9,6 @@
   --spacing-60: 60px;
   --spacing-24: 24px;
 
-  /* Размеры шрифтов */
   --font-size-37: 37px;
   --font-size-18: 18px;
 }
