@@ -1,17 +1,22 @@
+import interiorDesign from "../shared/assets/interiorDesign.jpg";
+import bgServices from "../shared/assets/bgServices.jpg"
+
 export const Services = () => {
   return (
-    <section className="bg-[#F4F5F6] pb-[120px] pt-[80px]">
+    <section 
+    style={{ backgroundImage: `url(${bgServices})` }}
+    className="bg-cover bg-center bg-no-repeat pb-[120px] pt-[80px]">
       <div className="max-w-[1230px] mx-auto px-4">
         <h2 className="text-[46px] font-black leading-tight text-[#1E212C] text-center">
           Our core values
         </h2>
-        <div className="mt-[24px] text-[18px] text-[#787A80] text-center">
+        <div className="mt-[24px] mb-[60px] text-[18px] text-[#787A80] text-center">
           Createx Construction Bureau is a construction giant with a full range
           of construction services.
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
+      <div className="max-w-[1230px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-20 mx-auto">
         <div className="bg-white border border-[#E5E8ED] rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow cursor-pointer group">
           <svg
             width="52"
@@ -67,33 +72,29 @@ export const Services = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-[#E5E8ED] rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow cursor-pointer group">
-          <svg
-            width="52"
-            height="52"
-            viewBox="0 0 52 52"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g clip-path="url(#clip0_178063_1985)">
+        <div className="relative overflow-hidden rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 cursor-pointer group">
+          <img
+            src={interiorDesign}
+            alt="Interior Design"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+          <div className="absolute inset-0 bg-[#1E212C]/60 transition-opacity group-hover:bg-[#1E212C]/70" />
+          <div className="relative z-10 flex flex-col items-center">
+            <svg
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
-                d="M10.7656 36.6641C8.24555 36.6641 6.19531 38.7143 6.19531 41.2344C6.19531 43.7544 8.24555 45.8047 10.7656 45.8047C13.2857 45.8047 15.3359 43.7544 15.3359 41.2344C15.3359 38.7143 13.2857 36.6641 10.7656 36.6641ZM10.7656 42.7578C9.9256 42.7578 9.24219 42.0744 9.24219 41.2344C9.24219 40.3944 9.9256 39.7109 10.7656 39.7109C11.6056 39.7109 12.2891 40.3944 12.2891 41.2344C12.2891 42.0744 11.6056 42.7578 10.7656 42.7578Z"
-                fill="white"
+                d="M42.8594 4.57031C42.8594 2.05029 40.8091 0 38.2891 0H7.82031C5.30029 0 3.25 2.05029 3.25 4.57031V13.7109C3.25 16.231 5.30029 18.2813 7.82031 18.2813H38.2891C40.8091 18.2813 42.8594 16.231 42.8594 13.7109V12.1875H44.3828C45.2227 12.1875 45.9063 12.8711 45.9063 13.7109V19.8047C45.9063 20.6446 45.2227 21.3281 44.3828 21.3281H26.1016C23.5815 21.3281 21.5313 23.3784 21.5313 25.8984V30.4688H20.0078C19.1664 30.4688 18.4844 31.1507 18.4844 31.9922V38.003L16.9609 44.1952C15.9703 48.1573 18.964 52 23.0547 52C27.1473 52 30.1379 48.1533 29.15 44.2007L27.625 38.003V31.9922C27.625 31.1507 26.943 30.4688 26.1016 30.4688H24.5781V25.8984C24.5781 25.0586 25.2617 24.375 26.1016 24.375H44.3828C46.9028 24.375 48.9531 22.3247 48.9531 19.8047V13.7109C48.9531 11.1909 46.9028 9.14063 44.3828 9.14063H42.8594V4.57031ZM24.5781 33.5156V36.6641H21.5313V33.5156H24.5781ZM23.0547 48.9531C20.956 48.9531 19.4044 46.9834 19.9182 44.9287L21.202 39.7109H24.9074L26.1924 44.9343C26.7026 46.9746 25.1609 48.9531 23.0547 48.9531ZM7.82031 3.04688H38.2891C39.1289 3.04688 39.8125 3.73044 39.8125 4.57031V6.09375H35.2422C33.7616 6.09375 31.8684 6.64838 29.6761 7.29028C26.7149 8.15753 23.359 9.14063 20.0078 9.14063C16.7412 9.14063 14.4381 8.18649 12.4061 7.34503C10.8525 6.70154 9.38541 6.09375 7.82031 6.09375H6.29688V4.57031C6.29688 3.73044 6.98044 3.04688 7.82031 3.04688ZM39.8125 13.7109C39.8125 14.5508 39.1289 15.2344 38.2891 15.2344H7.82031C6.98044 15.2344 6.29688 14.5508 6.29688 13.7109V9.14063H7.82031C8.77921 9.14063 9.86545 9.59052 11.2401 10.1598C13.4209 11.0632 16.1349 12.1875 20.0078 12.1875C23.7962 12.1875 27.531 11.0933 30.5326 10.2146C32.4179 9.66232 34.1988 9.14063 35.2422 9.14063H39.8125V13.7109Z"
+                fill="#FF5A30"
               />
-              <path
-                d="M49.2504 30.9497C50.2897 29.5433 50.4811 27.582 49.5361 25.9454L43.4455 15.2945C42.3919 13.4696 40.1701 12.6369 38.1882 13.1667C38.6102 11.2698 37.7823 9.23477 36.0124 8.21295L25.4584 2.11961C23.9511 1.24922 22.1489 1.33839 20.7628 2.19568C19.9596 0.880141 18.5104 0 16.8594 0H4.57031C2.05024 0 0 2.05024 0 4.57031C0 5.62707 0 46.2132 0 47.4297C0 49.9498 2.05024 52 4.57031 52C5.75382 52 41.6374 52 47.4297 52C49.9498 52 52 49.9498 52 47.4297V35.1406C52 33.2675 50.8669 31.6547 49.2504 30.9497ZM18.3828 47.4297C18.3828 48.2697 17.6994 48.9531 16.8594 48.9531H4.57031C3.73029 48.9531 3.04688 48.2697 3.04688 47.4297C3.04688 46.7337 3.04688 34.2857 3.04688 33.6172H18.3828V47.4297ZM18.3828 30.5703H3.04688V18.2812H18.3828V30.5703ZM18.3828 15.2344H3.04688V4.57031C3.04688 3.73029 3.73029 3.04688 4.57031 3.04688H16.8594C17.6994 3.04688 18.3828 3.73029 18.3828 4.57031V15.2344ZM21.4297 6.04988L21.8533 5.31609C22.2736 4.58839 23.2073 4.33814 23.9349 4.75831L34.489 10.8516C35.2167 11.2718 35.4668 12.2056 35.0456 12.9353L33.2853 15.9951C33.2412 16.0602 33.2016 16.1278 33.1683 16.1984L21.4297 36.6026V6.04988ZM21.4297 42.7126L35.671 17.9581L38.6156 16.258C39.3621 15.8271 40.3859 16.0888 40.8037 16.8125L46.8944 27.4633C47.3156 28.1929 47.07 29.1283 46.3328 29.5539C45.2449 30.1837 22.5011 43.3507 21.4297 43.971V42.7126ZM48.9531 47.4297C48.9531 48.2697 48.2697 48.9531 47.4297 48.9531H21.1677C21.3301 48.4951 21.4212 48.0039 21.4282 47.4926L45.3954 33.6172H47.4297C48.2697 33.6172 48.9531 34.3006 48.9531 35.1406V47.4297Z"
-                fill="white"
-              />
-            </g>
-            <defs>
-              <clipPath id="clip0_178063_1985">
-                <rect width="52" height="52" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
-
-          <div className="text-[20px] font-bold text-[#1E212C]">
-            Interior Design
+            </svg>
+            <div className="text-[20px] font-bold text-white text-center">
+              Interior Design
+            </div>
           </div>
         </div>
 

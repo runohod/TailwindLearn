@@ -1,6 +1,10 @@
+import bgServices from "../shared/assets/bgServices.jpg"
+
 export const AskForm = () => {
   return (
-    <section className="bg-[#F4F5F6] pt-[80px] pb-[80px]">
+    <section 
+    style={{ backgroundImage: `url(${bgServices})` }}
+    className="pt-[80px] pb-[80px]">
       <div className="max-w-[1230px] mx-auto px-4 -mt-[225px] relative z-10">
         <div className="bg-white shadow-[0_80px_80px_-20px_rgba(154,156,165,0.08),_0_30px_24px_-10px_rgba(154,156,165,0.05)] rounded-lg p-10">
           <h2 className="text-[28px] font-bold text-[#1E212C] text-center mb-8">
