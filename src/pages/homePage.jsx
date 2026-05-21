@@ -6,6 +6,7 @@ import { AskForm } from "../widgets/askForm.jsx";
 import { Services } from "../widgets/services.jsx";
 import { OurProjects } from "../widgets/ourProjects.jsx"
 import { Partners } from "../widgets/partners.jsx"
+import { Facts } from "../widgets/facts.jsx"
 
 export function HomePage() {
   return (
@@ -18,6 +19,7 @@ export function HomePage() {
       <Services />
       <OurProjects />
       <Partners />
+      <Facts />
     </div>
   );
 }

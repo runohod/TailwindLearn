@@ -24,16 +24,16 @@ export const Partners = () => {
         <img src={sunsetRealty} alt="sunset Realty" className="" />
       </div>
 
-      <div className="max-w-[1230px] mx-auto mt-[170px]">
+      <div className="max-w-[1230px] mx-auto mt-[170px] flex justify-between">
 
-        <div className="">
+        <div className="max-w-[600px]">
           <h2 className="text-[46px] font-black leading-tight text-[#1E212C]">
             What our clients are saying
           </h2>
-          <img src={profilePartners} alt="profile-partners" className="" />
-          <div className="">Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim  laboris cillum laboris voluptate minim proident exercitation ullamco. </div>
-          <div className="">Shawn Edwards</div>
-          <div className="">Position, Company name</div>
+          <img src={profilePartners} alt="profile-partners" className="mt-[60px]" />
+          <div className="mt-[24px]">Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim  laboris cillum laboris voluptate minim proident exercitation ullamco. </div>
+          <div className="mt-[24px] font-bold">Shawn Edwards</div>
+          <div className="mt-[4px]">Position, Company name</div>
         </div>
 
         <img src={handshake} alt="handshake" className="" />
