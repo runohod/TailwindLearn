@@ -66,8 +66,9 @@ export const Facts = () => {
               How to Build Climate Change-Resilient Infrastructure
             </div>
             <div className="text-[12px] text-[#787A80] mb-2">
-                Industry News <span className="mx-2">|</span> June 24, 2020 <span className="mx-2">|</span> 4 comments
-              </div>
+              Industry News <span className="mx-2">|</span> June 24, 2020{" "}
+              <span className="mx-2">|</span> 4 comments
+            </div>
             <div className="text-[14px] text-[#424551] leading-relaxed mt-[16px]">
               Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas
               faucibus. Tincidunt aliquet sit vel, venenatis nulla. Integer
@@ -83,6 +84,10 @@ export const Facts = () => {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="mt-[24px]">How Construction Can Help Itself</div>
+              <div className="text-[12px] text-[#787A80] mb-2">
+                Innovation <span className="mx-2">|</span> June 24, 2020
+                <span className="mx-2">|</span> No comments
+              </div>
             </div>
             <div className="">
               <img
@@ -91,8 +96,20 @@ export const Facts = () => {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="mt-[24px]">Types of Flooring Materials</div>
+              <div className="text-[12px] text-[#787A80] mb-2">
+                Company News <span className="mx-2">|</span> December 1, 2019
+                <span className="mx-2">|</span> No comments
+              </div>
             </div>
           </div>
+        </div>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-10 mt-[200px]">
+          <span className="text-[28px] font-bold text-[#1E212C]">
+            Explore all our news posts
+          </span>
+          <button className="bg-[#FF5A30] text-white font-bold uppercase tracking-wider text-sm py-4 px-10 rounded hover:bg-[#ee4d24]">
+            View all news
+          </button>
         </div>
       </div>
     </section>

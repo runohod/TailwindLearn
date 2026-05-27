@@ -4,9 +4,11 @@ import { About } from "../widgets/about.jsx";
 import { Values } from "../widgets/values.jsx";
 import { AskForm } from "../widgets/askForm.jsx";
 import { Services } from "../widgets/services.jsx";
-import { OurProjects } from "../widgets/ourProjects.jsx"
-import { Partners } from "../widgets/partners.jsx"
-import { Facts } from "../widgets/facts.jsx"
+import { OurProjects } from "../widgets/ourProjects.jsx";
+import { Partners } from "../widgets/partners.jsx";
+import { Facts } from "../widgets/facts.jsx";
+import { QuickDiscuss } from "../widgets/quickDiscuss.jsx";
+import { Footer } from "../widgets/footer.jsx"
 
 export function HomePage() {
   return (
@@ -20,6 +22,8 @@ export function HomePage() {
       <OurProjects />
       <Partners />
       <Facts />
+      <QuickDiscuss />
+      <Footer/>
     </div>
   );
 }

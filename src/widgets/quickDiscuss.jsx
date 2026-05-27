@@ -1,0 +1,85 @@
+import bgQuickDiscuss from "../shared/assets/bgQuickDiscuss.jpg";
+
+export const QuickDiscuss = () => {
+  return (
+    <section
+      className="w-full min-h-[800px] bg-cover bg-center bg-no-repeat flex items-center mt-[120px]"
+      style={{ backgroundImage: `url(${bgQuickDiscuss})` }}
+    >
+      <div className="max-w-[1230px] w-full mx-auto px-4 flex justify-end">
+        <div className="w-full max-w-[495px] bg-white rounded-lg shadow-[0_22px_40px_rgba(30,33,44,0.06)] p-10 flex flex-col">
+          <h3 className="text-[28px] font-bold text-[#1E212C] text-center mb-6 leading-tight">
+            A quick way to discuss details
+          </h3>
+
+          <form
+            className="flex flex-col gap-5"
+            onSubmit={(e) => e.preventDefault()}
+          >
+            <div className="flex flex-col gap-2">
+              <label className="text-[14px] text-[#424551] font-normal">
+                Name*
+              </label>
+              <input
+                type="text"
+                placeholder="Your name"
+                className="w-full h-[52px] px-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30] transition-colors"
+                required
+              />
+            </div>
+            <div className="flex flex-col gap-2">
+              <label className="text-[14px] text-[#424551] font-normal">
+                Phone*
+              </label>
+              <input
+                type="tel"
+                placeholder="Your phone number"
+                className="w-full h-[52px] px-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30] transition-colors"
+                required
+              />
+            </div>
+            <div className="flex flex-col gap-2">
+              <label className="text-[14px] text-[#424551] font-normal">
+                Email
+              </label>
+              <input
+                type="email"
+                placeholder="Your working email"
+                className="w-full h-[52px] px-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30] transition-colors"
+              />
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <label className="text-[14px] text-[#424551] font-normal">
+                Message*
+              </label>
+              <textarea
+                placeholder="Your message"
+                className="w-full h-[86px] p-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30]"
+                required
+              ></textarea>
+            </div>
+            <label className="flex items-start gap-3 cursor-pointer mt-2 select-none">
+              <input
+                type="checkbox"
+                className="accent-[#FF5A30] w-4 h-4 mt-1 rounded cursor-pointer"
+                required
+              />
+              <span className="text-[14px] text-[#424551] leading-tight">
+                I agree to receive communications from Createx Construction
+                Bureau.
+              </span>
+            </label>
+
+            <button
+              type="submit"
+              className="w-full sm:w-auto self-center mt-4 px-10 h-[52px] bg-[#FF5A30] hover:bg-[#e04e27] text-white text-[16px] font-bold uppercase"
+            >
+              Send request
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+};
