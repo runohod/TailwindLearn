@@ -1,9 +1,10 @@
-import { HomePage } from '../pages/homePage'
+import { MainLayout } from "@/pages/homePage"
+import { HomePage } from "@/pages/homePage"
 
 export function App() {
   return (
-    <div className="">
+    <MainLayout>
       <HomePage />
-    </div>
+    </MainLayout>
   );
 }
