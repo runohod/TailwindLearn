@@ -1,0 +1,10 @@
+export { About } from "./ui/about";
+export { Header } from "./ui/header";
+export { Hero } from "./ui/hero";
+export { Values } from "./ui/values";
+export { AskForm } from "./ui/askForm";
+export { Services } from "./ui/services";
+export { OurProjects } from "./ui/ourProjects";
+export { Partners } from "./ui/partners";
+export { Facts } from "./ui/facts";
+export { QuickDiscuss } from "./ui/quickDiscuss";

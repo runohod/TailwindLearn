@@ -1,5 +1,5 @@
-import { Header } from "@/widgets/header";
-import { Footer } from "@/widgets/footer";
+import { Header } from "@/widgets/home-page-widgets/ui/header";
+import { Footer } from "@/widgets/home-page-widgets/ui/footer";
 
 export const MainLayout = ({ children }) => {
   return (
