@@ -3,9 +3,9 @@ import logoFooter from "../shared/assets/logoFooter.png";
 export const Footer = () => {
   return (
     <footer className="w-full bg-[#1E212C] text-white pt-20 pb-6 font-sans">
-      <div className="max-w-[1230px] mx-auto px-4">
+      <div className="max-w-1230 mx-auto px-4">
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-10 pb-12 border-b border-[#ffffff1a]">
-          <div className="max-w-[380px]">
+          <div className="max-w-95">
             <div className="flex items-center gap-10 mb-6">
               <img
                 src={logoFooter}
@@ -106,9 +106,9 @@ export const Footer = () => {
             </p>
           </div>
 
-          <div className="w-full max-w-[495px]">
+          <div className="w-full max-w-123.75">
             <h3 className="text-[24px] font-bold mb-4">Let's stay in touch</h3>
-            <form className="flex w-full h-[52px]">
+            <form className="flex w-full h-13">
               <input
                 type="email"
                 placeholder="Your email address"

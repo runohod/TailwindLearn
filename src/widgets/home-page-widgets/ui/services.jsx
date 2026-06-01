@@ -5,18 +5,18 @@ export const Services = () => {
   return (
     <section 
     style={{ backgroundImage: `url(${bgServices})` }}
-    className="bg-cover bg-center bg-no-repeat pb-[120px] pt-[80px]">
-      <div className="max-w-[1230px] mx-auto px-4">
+    className="bg-cover bg-center bg-no-repeat pb-120 pt-20">
+      <div className="max-w-1230 mx-auto px-4">
         <h2 className="text-[46px] font-black leading-tight text-[#1E212C] text-center">
           Our core values
         </h2>
-        <div className="mt-[24px] mb-[60px] text-[18px] text-[#787A80] text-center">
+        <div className="mt-24 mb-60 text-[18px] text-[#787A80] text-center">
           Createx Construction Bureau is a construction giant with a full range
           of construction services.
         </div>
       </div>
 
-      <div className="max-w-[1230px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-20 mx-auto">
+      <div className="max-w-1230 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-20 mx-auto">
         <div className="bg-white border border-[#E5E8ED] rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow cursor-pointer group">
           <svg
             width="52"

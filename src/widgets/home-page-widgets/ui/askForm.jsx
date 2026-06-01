@@ -5,7 +5,7 @@ export const AskForm = () => {
     <section 
     style={{ backgroundImage: `url(${bgServices})` }}
     className="pt-20 pb-20">
-      <div className="max-w-[1230px] mx-auto px-4 -mt-[225px] relative z-10">
+      <div className="max-w-1230 mx-auto px-4 -mt-56.25 relative z-10">
         <div className="bg-white shadow-[0_80px_80px_-20px_rgba(154,156,165,0.08),_0_30px_24px_-10px_rgba(154,156,165,0.05)] rounded-lg p-10">
           <h2 className="text-[28px] font-bold text-[#1E212C] text-center mb-8">
             Want to know more? Ask us a question:
@@ -17,7 +17,7 @@ export const AskForm = () => {
               <input 
                 type="text" 
                 placeholder="Your name"
-                className="bg-[#F4F5F6] border border-[#D7DADD] rounded px-4 py-3 outline-none focus:border-[#FF5A30] max-w-[260px]"
+                className="bg-[#F4F5F6] border border-[#D7DADD] rounded px-4 py-3 outline-none focus:border-[#FF5A30] max-w-65"
               />
             </div>
 
@@ -26,7 +26,7 @@ export const AskForm = () => {
               <input 
                 type="tel" 
                 placeholder="Your phone"
-                className="bg-[#F4F5F6] border border-[#D7DADD] rounded px-4 py-3 outline-none focus:border-[#FF5A30] max-w-[260px]"
+                className="bg-[#F4F5F6] border border-[#D7DADD] rounded px-4 py-3 outline-none focus:border-[#FF5A30] max-w-65"
               />
             </div>
 
@@ -35,7 +35,7 @@ export const AskForm = () => {
               <input 
                 type="text" 
                 placeholder="Your message"
-                className="bg-[#F4F5F6] border border-[#D7DADD] rounded px-4 py-3 outline-none focus:border-[#FF5A30] max-w-[414px]"
+                className="bg-[#F4F5F6] border border-[#D7DADD] rounded px-4 py-3 outline-none focus:border-[#FF5A30] max-w-103.5"
               />
             </div>
 

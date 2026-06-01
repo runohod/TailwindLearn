@@ -4,19 +4,19 @@ import thePencilBuilding from "../shared/assets/thePencilBuilding.jpg"
 
 export const OurProjects = () => {
   return (
-    <section className="pb-[60px]">
-      <div className="max-w-[1230px] mx-auto px-4 mt-[120px] flex items-end justify-between mb-[60px]">
-        <h2 className="text-[46px] font-black leading-tight text-[#1E212C] max-w-[705px] text-left">
+    <section className="pb-60">
+      <div className="max-w-1230 mx-auto px-4 mt-120 flex items-end justify-between mb-60">
+        <h2 className="text-[46px] font-black leading-tight text-[#1E212C] max-w-176.25 text-left">
           Browse our selected projects and learn more about our work
         </h2>
 
         <div className="flex items-center gap-3 shrink-0 mb-2">
-            <button className="w-[48px] h-[48px] rounded-full flex items-center justify-center border border-transparent hover:bg-[#FF5A30] text-[#424551] hover:text-white transition-all group">
+            <button className="w-12 h-12 rounded-full flex items-center justify-center border border-transparent hover:bg-[#FF5A30] text-[#424551] hover:text-white transition-all group">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="rotate-180">
                 <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             </button>
-            <button className="w-[48px] h-[48px] rounded-full flex items-center justify-center border border-transparent hover:bg-[#FF5A30] text-[#424551] hover:text-white transition-all group">
+            <button className="w-12 h-12 rounded-full flex items-center justify-center border border-transparent hover:bg-[#FF5A30] text-[#424551] hover:text-white transition-all group">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
@@ -25,9 +25,9 @@ export const OurProjects = () => {
 
       </div>
 
-      <div className="max-w-[1230px] flex gap-[30px] mb-[80px] justify-center mx-auto">
+      <div className="max-w-1230 flex gap-7.5 mb-20 justify-center mx-auto">
         <div className="bg-white rounded shadow-sm overflow-hidden flex flex-col group cursor-pointer hover:shadow-xl transition-shadow">
-            <div className="overflow-hidden aspect-[390/340]">
+            <div className="overflow-hidden aspect-390/340">
               <img 
                 src={redFingerBuilding} 
                 alt="Red Finger Building" 
@@ -40,7 +40,7 @@ export const OurProjects = () => {
             </div>
         </div>
         <div className="bg-white rounded shadow-sm overflow-hidden flex flex-col group cursor-pointer hover:shadow-xl transition-shadow">
-            <div className="overflow-hidden aspect-[390/340]">
+            <div className="overflow-hidden aspect-390/340">
               <img 
                 src={cubesBuilding} 
                 alt="Red Finger Building" 
@@ -53,7 +53,7 @@ export const OurProjects = () => {
             </div>
         </div>
         <div className="bg-white rounded shadow-sm overflow-hidden flex flex-col group cursor-pointer hover:shadow-xl transition-shadow">
-            <div className="overflow-hidden aspect-[390/340]">
+            <div className="overflow-hidden aspect-390/340">
               <img 
                 src={thePencilBuilding} 
                 alt="Red Finger Building" 

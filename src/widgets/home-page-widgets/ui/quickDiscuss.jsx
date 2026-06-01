@@ -3,11 +3,11 @@ import bgQuickDiscuss from "../shared/assets/bgQuickDiscuss.jpg";
 export const QuickDiscuss = () => {
   return (
     <section
-      className="w-full min-h-[800px] bg-cover bg-center bg-no-repeat flex items-center mt-[120px]"
+      className="w-full min-h-800 bg-cover bg-center bg-no-repeat flex items-center mt-120"
       style={{ backgroundImage: `url(${bgQuickDiscuss})` }}
     >
-      <div className="max-w-[1230px] w-full mx-auto px-4 flex justify-end">
-        <div className="w-full max-w-[495px] bg-white rounded-lg shadow-[0_22px_40px_rgba(30,33,44,0.06)] p-10 flex flex-col">
+      <div className="max-w-1230 w-full mx-auto px-4 flex justify-end">
+        <div className="w-full max-w-123.75 bg-white rounded-lg shadow-[0_22px_40px_rgba(30,33,44,0.06)] p-10 flex flex-col">
           <h3 className="text-[28px] font-bold text-[#1E212C] text-center mb-6 leading-tight">
             A quick way to discuss details
           </h3>
@@ -23,7 +23,7 @@ export const QuickDiscuss = () => {
               <input
                 type="text"
                 placeholder="Your name"
-                className="w-full h-[52px] px-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30] transition-colors"
+                className="w-full h-13 px-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30] transition-colors"
                 required
               />
             </div>
@@ -34,7 +34,7 @@ export const QuickDiscuss = () => {
               <input
                 type="tel"
                 placeholder="Your phone number"
-                className="w-full h-[52px] px-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30] transition-colors"
+                className="w-full h-13 px-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30] transition-colors"
                 required
               />
             </div>
@@ -45,7 +45,7 @@ export const QuickDiscuss = () => {
               <input
                 type="email"
                 placeholder="Your working email"
-                className="w-full h-[52px] px-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30] transition-colors"
+                className="w-full h-13 px-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30] transition-colors"
               />
             </div>
 
@@ -55,7 +55,7 @@ export const QuickDiscuss = () => {
               </label>
               <textarea
                 placeholder="Your message"
-                className="w-full h-[86px] p-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30]"
+                className="w-full h-21.5 p-4 bg-[#F4F5F6] border border-[#D7D9DF] rounded text-[16px] text-[#1E212C] placeholder-[#9A9CA5] focus:outline-none focus:border-[#FF5A30]"
                 required
               ></textarea>
             </div>
@@ -73,7 +73,7 @@ export const QuickDiscuss = () => {
 
             <button
               type="submit"
-              className="w-full sm:w-auto self-center mt-4 px-10 h-[52px] bg-[#FF5A30] hover:bg-[#e04e27] text-white text-[16px] font-bold uppercase"
+              className="w-full sm:w-auto self-center mt-4 px-10 h-13 bg-[#FF5A30] hover:bg-[#e04e27] text-white text-[16px] font-bold uppercase"
             >
               Send request
             </button>
