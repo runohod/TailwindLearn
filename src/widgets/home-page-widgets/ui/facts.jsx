@@ -1,10 +1,10 @@
-import circleProgress from "../shared/assets/circleProgress.png";
-import circleYear from "../shared/assets/circleYear.png";
-import circleHours from "../shared/assets/circleHours.png";
-import circleProjects from "../shared/assets/circleProjects.png";
-import builderFacts from "../shared/assets/builderFacts.jpg";
-import helmetFacts from "../shared/assets/helmetFacts.jpg";
-import handFacts from "../shared/assets/handFacts.jpg";
+import circleProgress from "@/shared/assets/circleProgress.png";
+import circleYear from "@/shared/assets/circleYear.png";
+import circleHours from "@/shared/assets/circleHours.png";
+import circleProjects from "@/shared/assets/circleProjects.png";
+import builderFacts from "@/shared/assets/builderFacts.jpg";
+import helmetFacts from "@/shared/assets/helmetFacts.jpg";
+import handFacts from "@/shared/assets/handFacts.jpg";
 
 export const Facts = () => {
   return (

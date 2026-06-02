@@ -1,4 +1,4 @@
-import bgServices from "../shared/assets/bgServices.jpg"
+import bgServices from "@/shared/assets/bgServices.jpg"
 
 export const AskForm = () => {
   return (
