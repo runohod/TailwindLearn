@@ -1,4 +1,4 @@
-import bgQuickDiscuss from "../shared/assets/bgQuickDiscuss.jpg";
+import bgQuickDiscuss from "@/shared/assets/img/bgQuickDiscuss.jpg";
 
 export const QuickDiscuss = () => {
   return (

@@ -1,11 +1,11 @@
-import inDepth from "../shared/assets/inDepth.png";
-import higerFit from "../shared/assets/higerFit.png";
-import sentinal from "../shared/assets/sentinal.png";
-import happyHome from "../shared/assets/happyHome.png";
-import forSale from "../shared/assets/forSale.png";
-import sunsetRealty from "../shared/assets/sunsetRealty.png";
-import handshake from "../shared/assets/handshake.jpg";
-import profilePartners from "../shared/assets/profilePartners.png";
+import inDepth from "@/shared/assets/img/inDepth.png";
+import higerFit from "@/shared/assets/img/higerFit.png";
+import sentinal from "@/shared/assets/img/sentinal.png";
+import happyHome from "@/shared/assets/img/happyHome.png";
+import forSale from "@/shared/assets/img/forSale.png";
+import sunsetRealty from "@/shared/assets/img/sunsetRealty.png";
+import handshake from "@/shared/assets/img/handshake.jpg";
+import profilePartners from "@/shared/assets/img/profilePartners.png";
 
 export const Partners = () => {
   return (

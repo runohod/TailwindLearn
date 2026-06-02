@@ -1,4 +1,4 @@
-import logoFooter from "../shared/assets/logoFooter.png";
+import logoFooter from "@/shared/assets/img/logoFooter.png";
 
 export const Footer = () => {
   return (

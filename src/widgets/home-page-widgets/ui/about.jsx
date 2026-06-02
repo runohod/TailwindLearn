@@ -1,4 +1,4 @@
-import video from "@/shared/assets/video.jpg";
+import { video } from "@/shared/assets";
 
 export const About = () => {
   return (

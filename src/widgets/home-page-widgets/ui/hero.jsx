@@ -1,4 +1,4 @@
-import bgHeader from "../shared/assets/bgHeader.jpg";
+import bgHeader from "@/shared/assets";
 
 export const Hero = () => {
   return (

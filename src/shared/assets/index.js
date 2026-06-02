@@ -1,4 +1,4 @@
-export { bgHeader } from './img/bgHeader.jpg';
+export {bgHeader} from './img/bgHeader.jpg';
 export {bgQuickDiscuss} from './img/bgQuickDiscuss.jpg';
 export {bgServices} from './img/bgServices.jpg';
 export {builderFacts} from './img/builderFacts.jpg';
@@ -20,5 +20,9 @@ export {profilePartners} from './img/profilePartners.png';
 export {redFingerBuilding} from './img/redFingerBuilding.jpg';
 export {sentinal} from './img/sentinal.png';
 export {sunsetRealty} from './img/sunsetRealty.png';
-export {thePencilBuilding} from './img/thePencilBuilding.jpg';
+export {thePencilBuilding} from './img/thePencilBuilding.jpg'
 export {video} from './img/video.jpg';
+export {chat} from './svg/chat.svg';
+export {favicon} from './svg/favicon.svg';
+export {logo} from './svg/logo.svg';
+export {phone} from './svg/phone.svg';

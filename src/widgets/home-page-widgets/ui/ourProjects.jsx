@@ -1,6 +1,6 @@
-import redFingerBuilding from "../shared/assets/redFingerBuilding.jpg"
-import cubesBuilding from "../shared/assets/cubesBuilding.jpg"
-import thePencilBuilding from "../shared/assets/thePencilBuilding.jpg"
+import redFingerBuilding from "@/shared/assets/img/redFingerBuilding.jpg"
+import cubesBuilding from "@/shared/assets/img/cubesBuilding.jpg"
+import thePencilBuilding from "@/shared/assets/img/thePencilBuilding.jpg"
 
 export const OurProjects = () => {
   return (

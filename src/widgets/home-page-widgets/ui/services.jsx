@@ -1,5 +1,5 @@
-import interiorDesign from "../shared/assets/interiorDesign.jpg";
-import bgServices from "../shared/assets/bgServices.jpg"
+import interiorDesign from "@/shared/assets/img/interiorDesign.jpg";
+import bgServices from "@/shared/assets/img/bgServices.jpg"
 
 export const Services = () => {
   return (

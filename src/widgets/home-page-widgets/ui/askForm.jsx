@@ -1,5 +1,4 @@
-import bgServices from "@/shared/assets/bgServices.jpg"
-
+import {bgServices} from "@/shared/assets";
 export const AskForm = () => {
   return (
     <section 
