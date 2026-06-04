@@ -1,11 +1,11 @@
-import interiorDesign from "@/shared/assets/img/interiorDesign.jpg";
-import bgServices from "@/shared/assets/img/bgServices.jpg"
+import { interiorDesign, bgServices } from "@/shared/assets";
 
 export const Services = () => {
   return (
-    <section 
-    style={{ backgroundImage: `url(${bgServices})` }}
-    className="bg-cover bg-center bg-no-repeat pb-120 pt-20">
+    <section
+      style={{ backgroundImage: `url(${bgServices})` }}
+      className="bg-cover bg-center bg-no-repeat pb-120 pt-20"
+    >
       <div className="max-w-1230 mx-auto px-4">
         <h2 className="text-[46px] font-black leading-tight text-[#1E212C] text-center">
           Our core values

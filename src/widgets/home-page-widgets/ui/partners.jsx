@@ -1,11 +1,4 @@
-import inDepth from "@/shared/assets/img/inDepth.png";
-import higerFit from "@/shared/assets/img/higerFit.png";
-import sentinal from "@/shared/assets/img/sentinal.png";
-import happyHome from "@/shared/assets/img/happyHome.png";
-import forSale from "@/shared/assets/img/forSale.png";
-import sunsetRealty from "@/shared/assets/img/sunsetRealty.png";
-import handshake from "@/shared/assets/img/handshake.jpg";
-import profilePartners from "@/shared/assets/img/profilePartners.png";
+import { inDepth, higerFit, sentinal, happyHome, forSale, sunsetRealty, handshake, profilePartners } from "@/shared/assets";
 
 export const Partners = () => {
   return (
@@ -25,19 +18,21 @@ export const Partners = () => {
       </div>
 
       <div className="max-w-1230 mx-auto mt-42.5 flex justify-between">
-
         <div className="max-w-150">
           <h2 className="text-[46px] font-black leading-tight text-[#1E212C]">
             What our clients are saying
           </h2>
           <img src={profilePartners} alt="profile-partners" className="mt-60" />
-          <div className="mt-24">Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim  laboris cillum laboris voluptate minim proident exercitation ullamco. </div>
+          <div className="mt-24">
+            Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum
+            eiusmod enim. Consectetur magna cillum consequat minim laboris
+            cillum laboris voluptate minim proident exercitation ullamco.{" "}
+          </div>
           <div className="mt-24 font-bold">Shawn Edwards</div>
           <div className="mt-1">Position, Company name</div>
         </div>
 
         <img src={handshake} alt="handshake" className="" />
-
       </div>
     </section>
   );

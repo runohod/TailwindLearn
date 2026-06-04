@@ -1,6 +1,4 @@
-import logo from "@/shared/assets/svg/logo.svg";
-import chat from "@/shared/assets/svg/chat.svg";
-import phone from "@/shared/assets/svg/phone.svg";
+import { logo, chat, phone } from "@/shared/assets";
 
 export const Header = () => {
   return (
