@@ -1,4 +1,4 @@
-import { MainLayout } from "@/pages/homePage"
+import { MainLayout } from "@/app/layouts/mainLayout"
 import { HomePage } from "@/pages/homePage"
 
 export function App() {
