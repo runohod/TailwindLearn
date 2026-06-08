@@ -4,7 +4,7 @@ export const Facts = () => {
   return (
     <section className="w-full">
       <div className="max-w-1230 mx-auto mt-120">
-        <h2 className="text-[46px] font-black leading-tight text-[#1E212C] text-center">
+        <h2 className="text-[46px] font-black leading-tight text-dark text-center">
           Some facts and figures
         </h2>
       </div>
@@ -45,7 +45,7 @@ export const Facts = () => {
       </div>
 
       <div className="max-w-1230 mx-auto mt-45">
-        <h2 className="text-[46px] font-black leading-tight text-[#1E212C] text-center">
+        <h2 className="text-[46px] font-black leading-tight text-dark text-center">
           Recent news
         </h2>
 
@@ -56,14 +56,14 @@ export const Facts = () => {
               alt="builder Facts"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
-            <div className="text-[20px] font-bold text-[#1E212C] leading-snug mb-3 group-hover:text-[#FF5A30] mt-24">
+            <div className="text-[20px] font-bold text-dark leading-snug mb-3 group-hover:text-primary mt-24">
               How to Build Climate Change-Resilient Infrastructure
             </div>
-            <div className="text-[12px] text-[#787A80] mb-2">
+            <div className="text-[12px] text-text-comment mb-2">
               Industry News <span className="mx-2">|</span> June 24, 2020{" "}
               <span className="mx-2">|</span> 4 comments
             </div>
-            <div className="text-[14px] text-[#424551] leading-relaxed mt-4">
+            <div className="text-[14px] text-gray-text leading-relaxed mt-4">
               Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas
               faucibus. Tincidunt aliquet sit vel, venenatis nulla. Integer
               bibendum turpis convallis enim, nibh convallis...
@@ -78,7 +78,7 @@ export const Facts = () => {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="mt-24">How Construction Can Help Itself</div>
-              <div className="text-[12px] text-[#787A80] mb-2">
+              <div className="text-[12px] text-text-comment mb-2">
                 Innovation <span className="mx-2">|</span> June 24, 2020
                 <span className="mx-2">|</span> No comments
               </div>
@@ -90,7 +90,7 @@ export const Facts = () => {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="mt-24">Types of Flooring Materials</div>
-              <div className="text-[12px] text-[#787A80] mb-2">
+              <div className="text-[12px] text-text-comment mb-2">
                 Company News <span className="mx-2">|</span> December 1, 2019
                 <span className="mx-2">|</span> No comments
               </div>
@@ -98,10 +98,10 @@ export const Facts = () => {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-10 mt-50">
-          <span className="text-[28px] font-bold text-[#1E212C]">
+          <span className="text-[28px] font-bold text-dark">
             Explore all our news posts
           </span>
-          <button className="bg-[#FF5A30] text-white font-bold uppercase tracking-wider text-sm py-4 px-10 rounded hover:bg-[#ee4d24]">
+          <button className="bg-primary text-white font-bold uppercase tracking-wider text-sm py-4 px-10 rounded hover:bg-primary-hover">
             View all news
           </button>
         </div>

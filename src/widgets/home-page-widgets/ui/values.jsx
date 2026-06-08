@@ -1,16 +1,16 @@
 export const Values = () => {
   return (
     <section className="mt-45 mb-67.5 bg-white">
-      <div className="max-w-1230 mx-auto px-4">
+      <div className="max-w-1230 mx-auto px-24">
         <div className="flex flex-col items-center">
-          <h2 className="text-[46px] font-black leading-tight text-[#1E212C] text-center">
+          <h2 className="text-[46px] font-black leading-tight text-dark text-center">
             Our core values
           </h2>
-          <div className="mt-24 text-[18px] text-[#787A80] text-center max-w-202.5">
+          <div className="mt-24 text-[18px] text-text-comment text-center max-w-202.5">
             Our mission is to set the highest standards for construction sphere.
           </div>
           <div className="mt-60 flex w-full justify-between items-start">
-            <div className="flex flex-col items-center flex-1 px-4">
+            <div className="flex flex-col items-center flex-1 px-24">
               <div className="h-12 flex items-center justify-center">
                 <svg
                   width="48"
@@ -41,10 +41,10 @@ export const Values = () => {
                   />
                 </svg>
               </div>
-              <h3 className="mt-6 text-[20px] font-bold text-[#1E212C]">
+              <h3 className="mt-6 text-[20px] font-bold text-dark">
                 Quality
               </h3>
-              <div className="mt-2 text-[16px] text-[#787A80] text-center max-w-71.25">
+              <div className="mt-2 text-[16px] text-text-comment text-center max-w-71.25">
                 Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam
                 velit nostrud aliquip sunt.
               </div>
@@ -52,7 +52,7 @@ export const Values = () => {
 
             <div className="w-px h-40 bg-gradient-to-b from-transparent via-gray-200 to-transparent mt-10"></div>
 
-            <div className="flex flex-col items-center flex-1 px-4">
+            <div className="flex flex-col items-center flex-1 px-24">
               <div className="h-12 flex items-center justify-center">
                 <svg
                   width="48"
@@ -90,10 +90,10 @@ export const Values = () => {
                   </defs>
                 </svg>
               </div>
-              <h3 className="mt-6 text-[20px] font-bold text-[#1E212C]">
+              <h3 className="mt-6 text-[20px] font-bold text-dark">
                 Safety
               </h3>
-              <div className="mt-2 text-[16px] text-[#787A80] text-center max-w-71.25">
+              <div className="mt-2 text-[16px] text-text-comment text-center max-w-71.25">
                 Anim reprehenderit sint voluptate exercitation adipisicing
                 laborum adipisicing. Minim empor est ea.
               </div>
@@ -101,7 +101,7 @@ export const Values = () => {
 
             <div className="w-px h-40 bg-gradient-to-b from-transparent via-gray-200 to-transparent mt-10"></div>
 
-            <div className="flex flex-col items-center flex-1 px-4">
+            <div className="flex flex-col items-center flex-1 px-24">
               <div className="h-12 flex items-center justify-center">
                 <svg
                   width="48"
@@ -135,10 +135,10 @@ export const Values = () => {
                   </defs>
                 </svg>
               </div>
-              <h3 className="mt-6 text-[20px] font-bold text-[#1E212C]">
+              <h3 className="mt-6 text-[20px] font-bold text-dark">
                 Comfort
               </h3>
-              <div className="mt-2 text-[16px] text-[#787A80] text-center max-w-71.25">
+              <div className="mt-2 text-[16px] text-text-comment text-center max-w-71.25">
                 Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit
                 voluptate ullamco proident ea ad.
               </div>

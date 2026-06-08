@@ -10,4 +10,13 @@
 
   --font-size-37: 37px;
   --font-size-18: 18px;
+
+  --color-primary: #FF5A30;
+  --color-primary-hover: #ee4d24;
+  --color-dark: #1E212C;
+  --color-gray-text: #424551;
+  --color-gray-border: #D7DADD;
+  --color-text-form: #F4F5F6;
+  --color-text-comment: #787A80;
+  --color-bg-footer: #ffffff1a;
 }

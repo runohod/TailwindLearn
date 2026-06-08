@@ -2,15 +2,15 @@ import { interiorDesign, bgServices } from "@/shared/assets";
 
 export const Services = () => {
   return (
-    <section
-      style={{ backgroundImage: `url(${bgServices})` }}
-      className="bg-cover bg-center bg-no-repeat pb-120 pt-20"
+    <section 
+    style={{ "--bg-services": `url(${bgServices})` }}
+    className="bg-[image:var(--bg-services)] bg-cover bg-center bg-no-repeat pt-20 pb-120"
     >
-      <div className="max-w-1230 mx-auto px-4">
-        <h2 className="text-[46px] font-black leading-tight text-[#1E212C] text-center">
+      <div className="max-w-1230 mx-auto px-24">
+        <h2 className="text-[46px] font-black leading-tight text-dark text-center">
           Our core values
         </h2>
-        <div className="mt-24 mb-60 text-[18px] text-[#787A80] text-center">
+        <div className="mt-24 mb-60 text-[18px] text-text-comment text-center">
           Createx Construction Bureau is a construction giant with a full range
           of construction services.
         </div>
@@ -37,7 +37,7 @@ export const Services = () => {
               </clipPath>
             </defs>
           </svg>
-          <div className="text-[20px] font-bold text-[#1E212C]">
+          <div className="text-[20px] font-bold text-dark">
             Construction
           </div>
         </div>
@@ -67,7 +67,7 @@ export const Services = () => {
             </defs>
           </svg>
 
-          <div className="text-[20px] font-bold text-[#1E212C]">
+          <div className="text-[20px] font-bold text-dark">
             Construction
           </div>
         </div>
@@ -78,7 +78,7 @@ export const Services = () => {
             alt="Interior Design"
             className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-[#1E212C]/60 transition-opacity group-hover:bg-[#1E212C]/70" />
+          <div className="absolute inset-0 bg-dark/60 transition-opacity group-hover:bg-dark/70" />
           <div className="relative z-10 flex flex-col items-center">
             <svg
               width="52"
@@ -112,15 +112,15 @@ export const Services = () => {
             />
           </svg>
 
-          <div className="text-[20px] font-bold text-[#1E212C]">Repairs</div>
+          <div className="text-[20px] font-bold text-dark">Repairs</div>
         </div>
       </div>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-10">
-        <span className="text-[28px] font-bold text-[#1E212C]">
+        <span className="text-[28px] font-bold text-dark">
           Learn more about our services
         </span>
-        <button className="bg-[#FF5A30] text-white font-bold uppercase tracking-wider text-sm py-4 px-10 rounded hover:bg-[#ee4d24]">
+        <button className="bg-primary text-white font-bold uppercase tracking-wider text-sm py-4 px-10 rounded hover:bg-primary-hover">
           View services
         </button>
       </div>

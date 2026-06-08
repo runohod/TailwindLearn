@@ -2,9 +2,9 @@ import { inDepth, higerFit, sentinal, happyHome, forSale, sunsetRealty, handshak
 
 export const Partners = () => {
   return (
-    <section className="bg-[#F4F5F6] py-20">
+    <section className="bg-text-form py-20">
       <div className="max-w-1230 mx-auto">
-        <h2 className="text-[46px] font-black leading-tight text-[#1E212C] text-center">
+        <h2 className="text-[46px] font-black leading-tight text-dark text-center">
           Supported by 12+ partners
         </h2>
       </div>
@@ -19,7 +19,7 @@ export const Partners = () => {
 
       <div className="max-w-1230 mx-auto mt-42.5 flex justify-between">
         <div className="max-w-150">
-          <h2 className="text-[46px] font-black leading-tight text-[#1E212C]">
+          <h2 className="text-[46px] font-black leading-tight text-dark">
             What our clients are saying
           </h2>
           <img src={profilePartners} alt="profile-partners" className="mt-60" />

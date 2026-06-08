@@ -2,9 +2,9 @@ import { logoFooter } from "@/shared/assets";
 
 export const Footer = () => {
   return (
-    <footer className="w-full bg-[#1E212C] text-white pt-20 pb-6 font-sans">
-      <div className="max-w-1230 mx-auto px-4">
-        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-10 pb-12 border-b border-[#ffffff1a]">
+    <footer className="w-full bg-dark text-white pt-20 pb-6 font-sans">
+      <div className="max-w-1230 mx-auto px-24">
+        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-10 pb-12 border-b border-bg-footer">
           <div className="max-w-95">
             <div className="flex items-center gap-10 mb-6">
               <img
@@ -14,7 +14,7 @@ export const Footer = () => {
               />
 
               <div className="flex items-center gap-4 text-[#ffffff99]">
-                <a href="#" className="hover:text-[#FF5A30] transition-colors">
+                <a href="#" className="hover:text-primary transition-colors">
                   <svg
                     width="24"
                     height="24"
@@ -30,7 +30,7 @@ export const Footer = () => {
                     </g>
                   </svg>
                 </a>
-                <a href="#" className="hover:text-[#FF5A30] transition-colors">
+                <a href="#" className="hover:text-primary transition-colors">
                   <svg
                     width="24"
                     height="24"
@@ -46,7 +46,7 @@ export const Footer = () => {
                     </g>
                   </svg>{" "}
                 </a>
-                <a href="#" className="hover:text-[#FF5A30] transition-colors">
+                <a href="#" className="hover:text-primary transition-colors">
                   <svg
                     width="24"
                     height="24"
@@ -62,7 +62,7 @@ export const Footer = () => {
                     </g>
                   </svg>
                 </a>
-                <a href="#" className="hover:text-[#FF5A30] transition-colors">
+                <a href="#" className="hover:text-primary transition-colors">
                   <svg
                     width="24"
                     height="24"
@@ -78,7 +78,7 @@ export const Footer = () => {
                     </g>
                   </svg>
                 </a>
-                <a href="#" className="hover:text-[#FF5A30] transition-colors">
+                <a href="#" className="hover:text-primary transition-colors">
                   <svg
                     width="24"
                     height="24"
@@ -112,12 +112,12 @@ export const Footer = () => {
               <input
                 type="email"
                 placeholder="Your email address"
-                className="flex-grow px-4 bg-[#ffffff1a] border border-[#ffffff33] rounded-l text-[14px] placeholder-[#ffffff66] text-white focus:outline-none focus:border-[#FF5A30] transition-colors"
+                className="flex-grow px-24 bg-bg-footer border border-[#e6141433] rounded-l text-[14px] placeholder-[#ffffff66] text-white focus:outline-none focus:border-primary transition-colors"
                 required
               />
               <button
                 type="submit"
-                className="bg-[#FF5A30] hover:bg-[#e04e27] text-white font-bold text-[14px] px-6 rounded-r uppercase tracking-wider transition-colors"
+                className="bg-primary hover:bg-[#e04e27] text-white font-bold text-[14px] px-6 rounded-r uppercase tracking-wider transition-colors"
               >
                 Subscribe
               </button>
@@ -207,15 +207,15 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-6 border-t border-[#ffffff1a] text-[12px] text-[#ffffff99]">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-6 border-t border-bg-footer text-[12px] text-[#ffffff99]">
           <div>
             © All rights reserved. Made with{" "}
-            <span className="text-[#FF5A30]">❤️</span> by Createx Studio
+            <span className="text-primary">❤️</span> by Createx Studio
           </div>
 
-          <button className="flex items-center gap-2 group uppercase font-bold tracking-wider text-[11px] text-white hover:text-[#FF5A30] transition-colors">
+          <button className="flex items-center gap-2 group uppercase font-bold tracking-wider text-[11px] text-white hover:text-primary transition-colors">
             <span>Go to top</span>
-            <span className="w-10 h-10 flex items-center justify-center bg-[#FF5A30] rounded group-hover:bg-[#e04e27] text-white transition-colors shadow-md">
+            <span className="w-10 h-10 flex items-center justify-center bg-primary rounded group-hover:bg-[#e04e27] text-white transition-colors shadow-md">
               <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                 <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
               </svg>

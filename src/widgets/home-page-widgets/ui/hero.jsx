@@ -5,13 +5,13 @@ export const Hero = () => {
     <section className="relative w-full h-247 bg-cover bg-center bg-no-repeat flex items-center bg-[image:linear-gradient(rgba(30,33,44,0.6),rgba(30,33,44,0.6)),var(--bg-image)]"
       style={{ '--bg-image': `url(${bgHeader})` }}
     >
-      <div className="max-w-1230 w-full mx-auto px-4 text-white">
+      <div className="max-w-1230 w-full mx-auto px-24 text-white">
         <h1 className="text-6xl font-black uppercase leading-tight max-w-144.25">
           Create<span className="text-primary">x</span> <br /> Construction
         </h1>
-        <p className="mt-24 text-xl max-w-148.75">
+        <div className="mt-24 text-xl max-w-148.75">
           Cras ultrices leo vitae non viverra. Fringilla nisi quisque consequat, dignissim vitae proin ipsum sed. Pellentesque nec turpis purus eget pellentesque integer ipsum elementum felis. 
-        </p>
+        </div>
         
         <div className="mt-15.25 flex gap-24">
           <button className="h-13 px-10 border border-white font-bold uppercase hover:bg-white hover:text-heading transition-all">
@@ -23,13 +23,13 @@ export const Hero = () => {
         </div>
       </div>
       <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-between px-8 z-20 pointer-events-none">
-        <button className="w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white text-white hover:text-[#1E212C] transition-all pointer-events-auto group">
+        <button className="w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white text-white hover:text-dark transition-all pointer-events-auto group">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="rotate-180">
             <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
         </button>
 
-        <button className="w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white text-white hover:text-[#1E212C] transition-all pointer-events-auto group">
+        <button className="w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white text-white hover:text-dark transition-all pointer-events-auto group">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
@@ -37,7 +37,7 @@ export const Hero = () => {
       </div>
 
     <div className="absolute bottom-20 left-0 right-0">
-        <div className="max-w-1230 mx-auto px-4">
+        <div className="max-w-1230 mx-auto px-24">
             <div className="flex items-end">
             <div className="flex flex-col gap-3 w-44.5 group cursor-pointer">
                 <span className="text-[28px] font-bold text-white">01</span>
