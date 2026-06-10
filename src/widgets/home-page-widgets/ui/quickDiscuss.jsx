@@ -6,7 +6,7 @@ export const QuickDiscuss = () => {
       className="w-full min-h-800 bg-cover bg-center bg-no-repeat flex items-center mt-120"
       style={{ backgroundImage: `url(${bgQuickDiscuss})` }}
     >
-      <div className="max-w-1230 w-full mx-auto px-24 flex justify-end">
+      <div className="container-custom flex justify-end">
         <div className="w-full max-w-123.75 bg-white rounded-lg shadow-[0_22px_40px_rgba(30,33,44,0.06)] p-10 flex flex-col">
           <h3 className="text-[28px] font-bold text-dark text-center mb-6 leading-tight">
             A quick way to discuss details

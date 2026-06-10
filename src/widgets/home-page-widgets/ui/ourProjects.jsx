@@ -3,7 +3,7 @@ import { redFingerBuilding, cubesBuilding, thePencilBuilding } from "@/shared/as
 export const OurProjects = () => {
   return (
     <section className="pb-60">
-      <div className="max-w-1230 mx-auto px-24 mt-120 flex items-end justify-between mb-60">
+      <div className="container-custom mt-120 flex items-end justify-between mb-60">
         <h2 className="text-[46px] font-black leading-tight text-dark max-w-176.25 text-left">
           Browse our selected projects and learn more about our work
         </h2>

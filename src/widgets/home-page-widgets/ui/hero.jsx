@@ -5,7 +5,7 @@ export const Hero = () => {
     <section className="relative w-full h-247 bg-cover bg-center bg-no-repeat flex items-center bg-[image:linear-gradient(rgba(30,33,44,0.6),rgba(30,33,44,0.6)),var(--bg-image)]"
       style={{ '--bg-image': `url(${bgHeader})` }}
     >
-      <div className="max-w-1230 w-full mx-auto px-24 text-white">
+      <div className="container-custom text-white">
         <h1 className="text-6xl font-black uppercase leading-tight max-w-144.25">
           Create<span className="text-primary">x</span> <br /> Construction
         </h1>

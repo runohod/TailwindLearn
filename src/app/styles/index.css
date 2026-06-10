@@ -20,3 +20,12 @@
   --color-text-comment: #787A80;
   --color-bg-footer: #ffffff1a;
 }
+
+  @utility container-custom {
+  max-width: var(--spacing-1230);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--spacing-24);
+  padding-right: var(--spacing-24);
+  width: 100%;
+}

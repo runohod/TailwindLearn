@@ -6,7 +6,7 @@ export const Services = () => {
     style={{ "--bg-services": `url(${bgServices})` }}
     className="bg-[image:var(--bg-services)] bg-cover bg-center bg-no-repeat pt-20 pb-120"
     >
-      <div className="max-w-1230 mx-auto px-24">
+      <div className="container-custom">
         <h2 className="text-[46px] font-black leading-tight text-dark text-center">
           Our core values
         </h2>

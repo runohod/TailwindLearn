@@ -3,7 +3,7 @@ import { inDepth, higerFit, sentinal, happyHome, forSale, sunsetRealty, handshak
 export const Partners = () => {
   return (
     <section className="bg-text-form py-20">
-      <div className="max-w-1230 mx-auto">
+      <div className="mcontainer-custom">
         <h2 className="text-[46px] font-black leading-tight text-dark text-center">
           Supported by 12+ partners
         </h2>

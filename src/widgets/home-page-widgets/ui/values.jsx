@@ -1,7 +1,7 @@
 export const Values = () => {
   return (
     <section className="mt-45 mb-67.5 bg-white">
-      <div className="max-w-1230 mx-auto px-24">
+      <div className="container-custom">
         <div className="flex flex-col items-center">
           <h2 className="text-[46px] font-black leading-tight text-dark text-center">
             Our core values

@@ -6,7 +6,7 @@ export const AskForm = () => {
     style={{ "--bg-services": `url(${bgServices})` }}
     className="bg-[image:var(--bg-services)] bg-cover bg-center bg-no-repeat pt-20 pb-20"
     >
-      <div className="max-w-1230 mx-auto px-24 -mt-56.25 relative z-10">
+      <div className="container-custom -mt-56.25 relative z-10">
         <div className="bg-white shadow-[0_80px_80px_-20px_rgba(154,156,165,0.08),_0_30px_24px_-10px_rgba(154,156,165,0.05)] rounded-lg p-10">
           <h2 className="text-[28px] font-bold text-dark text-center mb-8">
             Want to know more? Ask us a question:

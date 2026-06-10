@@ -3,7 +3,7 @@ import {circleProgress, circleYear, circleHours, circleProjects, builderFacts, h
 export const Facts = () => {
   return (
     <section className="w-full">
-      <div className="max-w-1230 mx-auto mt-120">
+      <div className="container-custom mt-120">
         <h2 className="text-[46px] font-black leading-tight text-dark text-center">
           Some facts and figures
         </h2>

@@ -3,7 +3,7 @@ import { logoFooter } from "@/shared/assets";
 export const Footer = () => {
   return (
     <footer className="w-full bg-dark text-white pt-20 pb-6 font-sans">
-      <div className="max-w-1230 mx-auto px-24">
+      <div className="container-custom">
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-10 pb-12 border-b border-bg-footer">
           <div className="max-w-95">
             <div className="flex items-center gap-10 mb-6">
