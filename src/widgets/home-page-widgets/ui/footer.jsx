@@ -2,11 +2,11 @@ import { logoFooter } from "@/shared/assets";
 
 export const Footer = () => {
   return (
-    <footer className="w-full bg-dark text-white pt-20 pb-6 font-sans">
-      <div className="container-custom">
-        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-10 pb-12 border-b border-bg-footer">
-          <div className="max-w-95">
-            <div className="flex items-center gap-10 mb-6">
+    <footer className="w-full bg-dark text-white pt-12 md:pt-20 pb-6 font-sans">
+      <div className="container-custom px-4 xl:px-0">
+        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-10 pb-12 border-b border-bg-footer">
+          <div className="w-full lg:max-w-[380px]">
+            <div className="flex flex-wrap items-center gap-6 sm:gap-10 mb-6">
               <img
                 src={logoFooter}
                 alt="Createx Logo"
@@ -14,7 +14,11 @@ export const Footer = () => {
               />
 
               <div className="flex items-center gap-4 text-[#ffffff99]">
-                <a href="#" className="hover:text-primary transition-colors">
+                <a
+                  href="#"
+                  className="hover:text-primary transition-colors"
+                  aria-label="WhatsApp"
+                >
                   <svg
                     width="24"
                     height="24"
@@ -30,7 +34,11 @@ export const Footer = () => {
                     </g>
                   </svg>
                 </a>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a
+                  href="#"
+                  className="hover:text-primary transition-colors"
+                  aria-label="Messenger"
+                >
                   <svg
                     width="24"
                     height="24"
@@ -46,7 +54,11 @@ export const Footer = () => {
                     </g>
                   </svg>{" "}
                 </a>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a
+                  href="#"
+                  className="hover:text-primary transition-colors"
+                  aria-label="Facebook"
+                >
                   <svg
                     width="24"
                     height="24"
@@ -62,7 +74,11 @@ export const Footer = () => {
                     </g>
                   </svg>
                 </a>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a
+                  href="#"
+                  className="hover:text-primary transition-colors"
+                  aria-label="Twitter"
+                >
                   <svg
                     width="24"
                     height="24"
@@ -78,7 +94,11 @@ export const Footer = () => {
                     </g>
                   </svg>
                 </a>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a
+                  href="#"
+                  className="hover:text-primary transition-colors"
+                  aria-label="YouTube"
+                >
                   <svg
                     width="24"
                     height="24"
@@ -88,8 +108,8 @@ export const Footer = () => {
                   >
                     <g opacity="0.6">
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M21.3903 4.11358C22.4182 4.39044 23.2288 5.20086 23.5055 6.22899C24.0197 8.10691 23.9999 12.0213 23.9999 12.0213C23.9999 12.0213 23.9999 15.9158 23.5057 17.7939C23.2288 18.8218 22.4184 19.6324 21.3903 19.9091C19.5122 20.4035 12 20.4035 12 20.4035C12 20.4035 4.50731 20.4035 2.60961 19.8895C1.58148 19.6127 0.771054 18.802 0.4942 17.7741C0 15.9158 0 12.0015 0 12.0015C0 12.0015 0 8.10691 0.4942 6.22899C0.770871 5.20104 1.60125 4.37066 2.60943 4.09399C4.48753 3.59961 11.9998 3.59961 11.9998 3.59961C11.9998 3.59961 19.5122 3.59961 21.3903 4.11358ZM15.8549 12.0016L9.60788 15.5996V8.40355L15.8549 12.0016Z"
                         fill="white"
                       />
@@ -98,7 +118,7 @@ export const Footer = () => {
                 </a>
               </div>
             </div>
-            <p className="text-[14px] text-[#ffffff99]">
+            <p className="text-[14px] text-[#ffffff99] leading-relaxed">
               Createx Construction Bureau has been successfully operating in the
               USA construction market since 2000. We are proud to offer you
               quality construction and exemplary service. Our mission is to set
@@ -106,36 +126,39 @@ export const Footer = () => {
             </p>
           </div>
 
-          <div className="w-full max-w-123.75">
+          <div className="w-full lg:max-w-[495px]">
             <h3 className="text-[24px] font-bold mb-4">Let's stay in touch</h3>
-            <form className="flex w-full h-13">
+            <form
+              className="flex w-full h-13"
+              onSubmit={(e) => e.preventDefault()}
+            >
               <input
                 type="email"
                 placeholder="Your email address"
-                className="flex-grow px-24 bg-bg-footer border border-[#e6141433] rounded-l text-[14px] placeholder-[#ffffff66] text-white focus:outline-none focus:border-primary transition-colors"
+                className="flex-grow px-4 bg-bg-footer border border-[#e6141433] rounded-l text-[14px] placeholder-[#ffffff66] text-white focus:outline-none focus:border-primary transition-colors min-w-0"
                 required
               />
               <button
                 type="submit"
-                className="bg-primary hover:bg-[#e04e27] text-white font-bold text-[14px] px-6 rounded-r uppercase tracking-wider transition-colors"
+                className="bg-primary hover:bg-[#e04e27] text-white font-bold text-[14px] px-4 sm:px-6 rounded-r uppercase tracking-wider transition-colors whitespace-nowrap cursor-pointer"
               >
                 Subscribe
               </button>
             </form>
-            <p className="text-[12px] text-[#ffffff99] mt-3 leading-tight">
+            <p className="text-[12px] text-[#ffffff99] mt-3 leading-snug">
               *Subscribe to our newsletter to receive communications and early
               updates from Createx Construction Bureau.
             </p>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-12 pb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 pt-12 pb-16">
           <div>
             <h4 className="text-[16px] font-bold tracking-wider uppercase mb-4 text-white">
               Head Office
             </h4>
             <ul className="flex flex-col gap-2 text-[16px] text-[#ffffff99]">
-              <li>
+              <li className="leading-snug">
                 <span className="text-white">Address:</span> 8502 Preston Rd.
                 Inglewood, New York
               </li>
@@ -207,15 +230,18 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-6 border-t border-bg-footer text-[12px] text-[#ffffff99]">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-6 pt-6 border-t border-bg-footer text-[12px] text-[#ffffff99] text-center sm:text-left">
           <div>
             © All rights reserved. Made with{" "}
             <span className="text-primary">❤️</span> by Createx Studio
           </div>
 
-          <button className="flex items-center gap-2 group uppercase font-bold tracking-wider text-[11px] text-white hover:text-primary transition-colors">
+          <button
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="flex items-center gap-2 group uppercase font-bold tracking-wider text-[11px] text-white hover:text-primary transition-colors cursor-pointer"
+          >
             <span>Go to top</span>
-            <span className="w-10 h-10 flex items-center justify-center bg-primary rounded group-hover:bg-[#e04e27] text-white transition-colors shadow-md">
+            <span className="w-10 h-10 flex items-center justify-center bg-primary rounded group-hover:bg-[#e04e27] text-white transition-colors shadow-md shrink-0">
               <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                 <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
               </svg>
