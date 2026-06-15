@@ -2,66 +2,96 @@ import { bgHeader } from "@/shared/assets";
 
 export const Hero = () => {
   return (
-    <section className="relative w-full h-247 bg-cover bg-center bg-no-repeat flex items-center bg-[image:linear-gradient(rgba(30,33,44,0.6),rgba(30,33,44,0.6)),var(--bg-image)]"
-      style={{ '--bg-image': `url(${bgHeader})` }}
+    <section
+      className="relative w-full h-[500px] md:h-247 bg-cover bg-center bg-no-repeat flex items-center bg-[image:linear-gradient(rgba(30,33,44,0.6),rgba(30,33,44,0.6)),var(--bg-image)]"
+      style={{ "--bg-image": `url(${bgHeader})` }}
     >
-      <div className="container-custom text-white">
-        <h1 className="text-6xl font-black uppercase leading-tight max-w-144.25">
+      <div className="container-custom text-white px-4 md:px-0">
+        <h1 className="text-4xl md:text-6xl font-black uppercase leading-tight max-w-full md:max-w-144.25">
           Create<span className="text-primary">x</span> <br /> Construction
         </h1>
-        <div className="mt-24 text-xl max-w-148.75">
-          Cras ultrices leo vitae non viverra. Fringilla nisi quisque consequat, dignissim vitae proin ipsum sed. Pellentesque nec turpis purus eget pellentesque integer ipsum elementum felis. 
+
+        <div className="mt-10 md:mt-24 text-lg md:text-xl max-w-full md:max-w-148.75 opacity-90">
+          Cras ultrices leo vitae non viverra. Fringilla nisi quisque consequat,
+          dignissim vitae proin ipsum sed. Pellentesque nec turpis purus eget
+          pellentesque integer ipsum elementum felis.
         </div>
-        
-        <div className="mt-15.25 flex gap-24">
-          <button className="h-13 px-10 border border-white font-bold uppercase hover:bg-white hover:text-heading transition-all">
+
+        <div className="mt-10 md:mt-15.25 flex flex-col sm:flex-row gap-4 md:gap-24">
+          <button className="h-12 md:h-13 px-6 md:px-10 border border-white font-bold uppercase hover:bg-white hover:text-heading transition-all text-sm md:text-base">
             Learn more about us
           </button>
-          <button className="h-13 px-10 bg-primary font-bold uppercase hover:bg-orange-600 transition-all">
+          <button className="h-12 md:h-13 px-6 md:px-10 bg-primary font-bold uppercase hover:bg-orange-600 transition-all text-sm md:text-base">
             SUBMIT REQUEST
           </button>
         </div>
       </div>
-      <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-between px-8 z-20 pointer-events-none">
-        <button className="w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white text-white hover:text-dark transition-all pointer-events-auto group">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="rotate-180">
-            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
+
+      <div className="hidden md:flex absolute inset-x-0 top-1/2 -translate-y-1/2 justify-between px-8 z-20 pointer-events-none">
+        <button className="w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white text-white hover:text-dark transition-all pointer-events-auto group">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className="rotate-180"
+          >
+            <path
+              d="M5 12H19M19 12L12 5M19 12L12 19"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </button>
 
-        <button className="w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white text-white hover:text-dark transition-all pointer-events-auto group">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
+        <button className="w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white text-white hover:text-dark transition-all pointer-events-auto group">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 12H19M19 12L12 5M19 12L12 19"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </button>
       </div>
 
-    <div className="absolute bottom-20 left-0 right-0">
-        <div className="max-w-1230 mx-auto px-24">
-            <div className="flex items-end">
-            <div className="flex flex-col gap-3 w-44.5 group cursor-pointer">
-                <span className="text-[28px] font-bold text-white">01</span>
-                <div className="h-0.5 w-full bg-white relative">
-                </div>
-            </div>
-
-            <div className="flex flex-col gap-3 w-44.5 group cursor-pointer">
-                <span className="text-[28px] font-bold text-white opacity-60 group-hover:opacity-100 transition-opacity">02</span>
-                <div className="h-0.5 w-full bg-white/30 group-hover:bg-white/60 transition-colors"></div>
-            </div>
-
-            <div className="flex flex-col gap-3 w-44.5 group cursor-pointer">
-                <span className="text-[28px] font-bold text-white opacity-60 group-hover:opacity-100 transition-opacity">03</span>
-                <div className="h-0.5 w-full bg-white/30 group-hover:bg-white/60 transition-colors"></div>
-            </div>
-
-            <div className="flex flex-col gap-3 w-44.5 group cursor-pointer">
-                <span className="text-[28px] font-bold text-white opacity-60 group-hover:opacity-100 transition-opacity">04</span>
-                <div className="h-0.5 w-full bg-white/30 group-hover:bg-white/60 transition-colors"></div>
-            </div>
-            </div>
+      <div className="absolute bottom-6 md:bottom-20 left-0 right-0 overflow-x-auto md:overflow-visible">
+        <div className="max-w-1230 mx-auto px-6 md:px-24 min-w-max md:min-w-0">
+          <div className="flex items-end gap-4 md:gap-0">
+            {[
+              { num: "01", active: true },
+              { num: "02", active: false },
+              { num: "03", active: false },
+              { num: "04", active: false },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="flex flex-col gap-1 md:gap-3 w-28 md:w-44.5 group cursor-pointer"
+              >
+                <span
+                  className={`text-xl md:text-[28px] font-bold text-white ${item.active ? "" : "opacity-60 group-hover:opacity-100 transition-opacity"}`}
+                >
+                  {item.num}
+                </span>
+                <div
+                  className={`h-0.5 w-full ${item.active ? "bg-white" : "bg-white/30 group-hover:bg-white/60"} transition-colors`}
+                ></div>
+              </div>
+            ))}
+          </div>
         </div>
-    </div>
+      </div>
     </section>
   );
 };

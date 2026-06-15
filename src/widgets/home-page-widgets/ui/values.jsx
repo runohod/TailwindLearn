@@ -1,16 +1,18 @@
 export const Values = () => {
   return (
-    <section className="mt-45 mb-67.5 bg-white">
-      <div className="container-custom">
+    <section className="mt-16 mb-16 md:mt-45 md:mb-67.5 bg-white">
+      <div className="container-custom px-4 md:px-0">
         <div className="flex flex-col items-center">
-          <h2 className="text-[46px] font-black leading-tight text-dark text-center">
+          <h2 className="text-3xl md:text-[46px] font-black leading-tight text-dark text-center">
             Our core values
           </h2>
-          <div className="mt-24 text-[18px] text-text-comment text-center max-w-202.5">
+
+          <div className="mt-3 md:mt-24 text-base md:text-[18px] text-text-comment text-center max-w-202.5 opacity-90">
             Our mission is to set the highest standards for construction sphere.
           </div>
-          <div className="mt-60 flex w-full justify-between items-start">
-            <div className="flex flex-col items-center flex-1 px-24">
+
+          <div className="mt-10 md:mt-60 flex flex-col md:flex-row w-full justify-between items-center md:items-start gap-12 md:gap-0">
+            <div className="flex flex-col items-center flex-1 px-4 md:px-24 w-full max-w-sm md:max-w-none">
               <div className="h-12 flex items-center justify-center">
                 <svg
                   width="48"
@@ -41,7 +43,7 @@ export const Values = () => {
                   />
                 </svg>
               </div>
-              <h3 className="mt-6 text-[20px] font-bold text-dark">
+              <h3 className="mt-4 md:mt-6 text-[20px] font-bold text-dark">
                 Quality
               </h3>
               <div className="mt-2 text-[16px] text-text-comment text-center max-w-71.25">
@@ -50,9 +52,9 @@ export const Values = () => {
               </div>
             </div>
 
-            <div className="w-px h-40 bg-gradient-to-b from-transparent via-gray-200 to-transparent mt-10"></div>
+            <div className="hidden md:block w-px h-40 bg-gradient-to-b from-transparent via-gray-200 to-transparent mt-10"></div>
 
-            <div className="flex flex-col items-center flex-1 px-24">
+            <div className="flex flex-col items-center flex-1 px-4 md:px-24 w-full max-w-sm md:max-w-none">
               <div className="h-12 flex items-center justify-center">
                 <svg
                   width="48"
@@ -61,7 +63,7 @@ export const Values = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_178012_2155)">
+                  <g clipPath="url(#clip0_178012_2155)">
                     <path
                       d="M7 44H1.5C0.672 44 0 43.328 0 42.5V25.5C0 24.672 0.672 24 1.5 24C8.512 24 11.776 26.434 11.91 26.538C12.394 26.908 12.608 27.534 12.448 28.122L8.448 42.894C8.272 43.546 7.678 44 7 44ZM3 41H5.852L9.248 28.458C8.202 27.964 6.158 27.228 3 27.044V41Z"
                       fill="#FF5A30"
@@ -90,7 +92,7 @@ export const Values = () => {
                   </defs>
                 </svg>
               </div>
-              <h3 className="mt-6 text-[20px] font-bold text-dark">
+              <h3 className="mt-4 md:mt-6 text-[20px] font-bold text-dark">
                 Safety
               </h3>
               <div className="mt-2 text-[16px] text-text-comment text-center max-w-71.25">
@@ -99,9 +101,9 @@ export const Values = () => {
               </div>
             </div>
 
-            <div className="w-px h-40 bg-gradient-to-b from-transparent via-gray-200 to-transparent mt-10"></div>
+            <div className="hidden md:block w-px h-40 bg-gradient-to-b from-transparent via-gray-200 to-transparent mt-10"></div>
 
-            <div className="flex flex-col items-center flex-1 px-24">
+            <div className="flex flex-col items-center flex-1 px-4 md:px-24 w-full max-w-sm md:max-w-none">
               <div className="h-12 flex items-center justify-center">
                 <svg
                   width="48"
@@ -110,7 +112,7 @@ export const Values = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_178012_1477)">
+                  <g clipPath="url(#clip0_178012_1477)">
                     <path
                       d="M38.0536 2.09001C31.8843 1.44159 26.3377 5.93317 25.6893 12.1024L24.5623 22.8246C24.4812 23.597 25.0415 24.289 25.8139 24.3702L26.2801 24.4192L25.1041 35.6075C24.5638 40.7486 28.3068 45.3708 33.4478 45.9111C38.5889 46.4515 43.2111 42.7085 43.7514 37.5674L44.9274 26.3791L45.3935 26.4281C46.1659 26.5092 46.8579 25.9489 46.9391 25.1765L48.066 14.4543C48.7144 8.28506 44.2229 2.73842 38.0536 2.09001ZM37.7596 4.8871C42.3866 5.37341 45.7553 9.53339 45.2689 14.1603L44.877 17.8898L28.0944 16.1259L28.4864 12.3964C28.9727 7.76947 33.1327 4.40079 37.7596 4.8871ZM27.5064 21.7201L27.8004 18.923L44.583 20.6869L44.289 23.484L27.5064 21.7201ZM40.9543 37.2735C40.5761 40.8722 37.3405 43.4923 33.7418 43.114C30.1431 42.7358 27.523 39.5003 27.9012 35.9015L29.0772 24.7131L42.1303 26.0851L40.9543 37.2735Z"
                       fill="#FF5A30"
@@ -135,7 +137,7 @@ export const Values = () => {
                   </defs>
                 </svg>
               </div>
-              <h3 className="mt-6 text-[20px] font-bold text-dark">
+              <h3 className="mt-4 md:mt-6 text-[20px] font-bold text-dark">
                 Comfort
               </h3>
               <div className="mt-2 text-[16px] text-text-comment text-center max-w-71.25">

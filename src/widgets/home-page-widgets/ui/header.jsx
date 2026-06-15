@@ -8,11 +8,6 @@ export const Header = () => {
           <div className="shrink-0">
             <img src={logo} alt="logo" className="w-32.5 h-5.5" />
           </div>
-
-          {/* Навигация:
-            - Скрываем полностью на экранах меньше 768px (под мобильное меню / бургер).
-            - На экранах от 768px до 1200px уменьшаем зазоры между ссылками до gap-5, чтобы всё влезало.
-          */}
           <nav className="font-bold hidden min-[768px]:block">
             <ul className="flex gap-5 min-[1200px]:gap-10 text-sm min-[1200px]:text-base whitespace-nowrap">
               <li>
@@ -43,7 +38,11 @@ export const Header = () => {
             </ul>
           </nav>
           <div className="min-[768px]:hidden">
-            <button type="button" className="block cursor-pointer" aria-label="Toggle menu">
+            <button
+              type="button"
+              className="block cursor-pointer"
+              aria-label="Toggle menu"
+            >
               <svg
                 width="30"
                 height="30"
