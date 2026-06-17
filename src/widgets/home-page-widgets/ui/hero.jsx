@@ -6,7 +6,7 @@ export const Hero = () => {
       className="relative w-full h-[500px] md:h-247 bg-cover bg-center bg-no-repeat flex items-center bg-[image:linear-gradient(rgba(30,33,44,0.6),rgba(30,33,44,0.6)),var(--bg-image)]"
       style={{ "--bg-image": `url(${bgHeader})` }}
     >
-      <div className="container-custom text-white px-4 md:px-0">
+      <div className="container-custom text-white relative z-10">
         <h1 className="text-4xl md:text-6xl font-black uppercase leading-tight max-w-full md:max-w-144.25">
           Create<span className="text-primary">x</span> <br /> Construction
         </h1>
@@ -27,7 +27,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex absolute inset-x-0 top-1/2 -translate-y-1/2 justify-between px-8 z-20 pointer-events-none">
+      <div className="hidden min-[1350px]:flex absolute inset-x-0 top-1/2 -translate-y-1/2 justify-between px-8 z-20 pointer-events-none">
         <button className="w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white text-white hover:text-dark transition-all pointer-events-auto group">
           <svg
             width="24"
@@ -66,7 +66,7 @@ export const Hero = () => {
         </button>
       </div>
 
-      <div className="absolute bottom-6 md:bottom-20 left-0 right-0 overflow-x-auto md:overflow-visible">
+      <div className="hidden [min-width:576px]:block absolute bottom-6 md:bottom-20 left-0 right-0 overflow-x-auto md:overflow-visible">
         <div className="max-w-1230 mx-auto px-6 md:px-24 min-w-max md:min-w-0">
           <div className="flex items-end gap-4 md:gap-0">
             {[

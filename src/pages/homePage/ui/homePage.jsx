@@ -2,7 +2,7 @@ import { Hero, About, Values, AskForm, Services, OurProjects, Partners, Facts, Q
 
 export function HomePage() {
   return (
-    <>
+    <main>
       <Hero />
       <About />
       <Values />
@@ -12,6 +12,6 @@ export function HomePage() {
       <Partners />
       <Facts />
       <QuickDiscuss />
-    </>
+    </main>
   );
 }

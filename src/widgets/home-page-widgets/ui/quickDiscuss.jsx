@@ -53,11 +53,11 @@ export const QuickDiscuss = () => {
               <label className="text-[14px] text-gray-text font-normal">
                 Message*
               </label>
-              <textarea
+              <input
+                type="email"
                 placeholder="Your message"
-                className="w-full h-24 p-4 bg-text-form border border-[#D7D9DF] rounded text-[16px] text-dark placeholder-[#9A9CA5] focus:outline-none focus:border-primary resize-none"
-                required
-              ></textarea>
+                className="w-full h-13 px-4 bg-text-form border border-[#D7D9DF] rounded text-[16px] text-dark placeholder-[#9A9CA5] focus:outline-none focus:border-primary transition-colors"
+              />
             </div>
             <label className="flex items-start gap-3 cursor-pointer mt-2 select-none">
               <input

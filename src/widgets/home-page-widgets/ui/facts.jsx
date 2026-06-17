@@ -22,7 +22,7 @@ export const Facts = () => {
           <div className="w-full aspect-square overflow-hidden rounded-full">
             <img
               src={circleProgress}
-              alt="circle Progress"
+              alt="Totally satisfied clients"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
@@ -35,7 +35,7 @@ export const Facts = () => {
           <div className="w-full aspect-square overflow-hidden rounded-full">
             <img
               src={circleYear}
-              alt="circle Year"
+              alt="Years of experience"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
@@ -48,7 +48,7 @@ export const Facts = () => {
           <div className="w-full aspect-square overflow-hidden rounded-full">
             <img
               src={circleHours}
-              alt="circle Hours"
+              alt="Working hours spent"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
@@ -61,7 +61,7 @@ export const Facts = () => {
           <div className="w-full aspect-square overflow-hidden rounded-full">
             <img
               src={circleProjects}
-              alt="circle Projects"
+              alt="Succeeded projects"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
@@ -77,64 +77,76 @@ export const Facts = () => {
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-7.5 mt-8 md:mt-12 lg:mt-[60px]">
-          <div className="group cursor-pointer flex flex-col justify-between">
-            <div>
-              <div className="overflow-hidden rounded aspect-[705/360] w-full">
-                <img
-                  src={builderFacts}
-                  alt="builder Facts"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+          <article className="h-full">
+            <a href="#" className="group flex flex-col justify-between h-full">
+              <div>
+                <div className="overflow-hidden rounded aspect-[705/360] w-full">
+                  <img
+                    src={builderFacts}
+                    alt="How to Build Climate Change-Resilient Infrastructure"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <h3 className="text-[20px] md:text-[24px] font-black text-dark leading-snug mb-3 group-hover:text-primary mt-4 md:mt-6 transition-colors">
+                  How to Build Climate Change-Resilient Infrastructure
+                </h3>
+                <div className="text-[12px] text-text-comment mb-2">
+                  Industry News <span className="mx-2">|</span> June 24, 2020{" "}
+                  <span className="mx-2">|</span> 4 comments
+                </div>
+                <p className="text-[14px] md:text-base text-gray-text leading-relaxed mt-3">
+                  Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas
+                  faucibus. Tincidunt aliquet sit vel, venenatis nulla. Integer
+                  bibendum turpis convallis enim, nibh convallis...
+                </p>
               </div>
-              <div className="text-[20px] md:text-[24px] font-black text-dark leading-snug mb-3 group-hover:text-primary mt-4 md:mt-6 transition-colors">
-                How to Build Climate Change-Resilient Infrastructure
-              </div>
-              <div className="text-[12px] text-text-comment mb-2">
-                Industry News <span className="mx-2">|</span> June 24, 2020{" "}
-                <span className="mx-2">|</span> 4 comments
-              </div>
-              <div className="text-[14px] md:text-base text-gray-text leading-relaxed mt-3">
-                Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas
-                faucibus. Tincidunt aliquet sit vel, venenatis nulla. Integer
-                bibendum turpis convallis enim, nibh convallis...
-              </div>
-            </div>
-          </div>
+            </a>
+          </article>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8 lg:gap-6">
-            <div className="group cursor-pointer flex flex-col sm:justify-between lg:block">
-              <div className="overflow-hidden rounded aspect-[495/200] w-full">
-                <img
-                  src={helmetFacts}
-                  alt="helmet Facts"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="mt-4 text-[18px] md:text-[20px] font-bold text-dark leading-snug group-hover:text-primary transition-colors">
-                How Construction Can Help Itself
-              </div>
-              <div className="text-[12px] text-text-comment mt-1 mb-2">
-                Innovation <span className="mx-2">|</span> June 24, 2020
-                <span className="mx-2">|</span> No comments
-              </div>
-            </div>
+            <article>
+              <a
+                href="#"
+                className="group flex flex-col sm:justify-between lg:block h-full"
+              >
+                <div className="overflow-hidden rounded aspect-[495/200] w-full">
+                  <img
+                    src={helmetFacts}
+                    alt="How Construction Can Help Itself"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <h3 className="mt-4 text-[18px] md:text-[20px] font-bold text-dark leading-snug group-hover:text-primary transition-colors">
+                  How Construction Can Help Itself
+                </h3>
+                <div className="text-[12px] text-text-comment mt-1 mb-2">
+                  Innovation <span className="mx-2">|</span> June 24, 2020
+                  <span className="mx-2">|</span> No comments
+                </div>
+              </a>
+            </article>
 
-            <div className="group cursor-pointer flex flex-col sm:justify-between lg:block">
-              <div className="overflow-hidden rounded aspect-[495/200] w-full">
-                <img
-                  src={handFacts}
-                  alt="hand Facts"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="mt-4 text-[18px] md:text-[20px] font-bold text-dark leading-snug group-hover:text-primary transition-colors">
-                Types of Flooring Materials
-              </div>
-              <div className="text-[12px] text-text-comment mt-1 mb-2">
-                Company News <span className="mx-2">|</span> December 1, 2019
-                <span className="mx-2">|</span> No comments
-              </div>
-            </div>
+            <article>
+              <a
+                href="#"
+                className="group flex flex-col sm:justify-between lg:block h-full"
+              >
+                <div className="overflow-hidden rounded aspect-[495/200] w-full">
+                  <img
+                    src={handFacts}
+                    alt="Types of Flooring Materials"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <h3 className="mt-4 text-[18px] md:text-[20px] font-bold text-dark leading-snug group-hover:text-primary transition-colors">
+                  Types of Flooring Materials
+                </h3>
+                <div className="text-[12px] text-text-comment mt-1 mb-2">
+                  Company News <span className="mx-2">|</span> December 1, 2019
+                  <span className="mx-2">|</span> No comments
+                </div>
+              </a>
+            </article>
           </div>
         </div>
 
