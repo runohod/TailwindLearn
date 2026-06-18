@@ -63,17 +63,23 @@ export const Header = () => {
         <div className="flex gap-4 min-[1200px]:gap-9 shrink-0 items-center">
           <div className="flex gap-3 items-center">
             <img src={phone} alt="phone" className="w-10 h-10" />
-            <div className="font-bold text-sm leading-tight hidden min-[992px]:block">
+            <a
+              href="tel:4055550128"
+              className="font-bold text-sm leading-tight hidden min-[992px]:block"
+            >
               <p className="text-gray-text font-normal text-xs">Call us</p>
               <p className="text-dark whitespace-nowrap">(405) 555-0128</p>
-            </div>
+            </a>
           </div>
           <div className="flex gap-3 items-center">
             <img src={chat} alt="chat" className="w-10 h-10" />
-            <div className="font-bold text-sm leading-tight hidden min-[992px]:block">
+            <a
+              href="mailto:hello@createx.com"
+              className="font-bold text-sm leading-tight hidden min-[992px]:block"
+            >
               <p className="text-gray-text font-normal text-xs">Talk to us</p>
               <p className="text-dark whitespace-nowrap">hello@createx.com</p>
-            </div>
+            </a>
           </div>
         </div>
       </div>
