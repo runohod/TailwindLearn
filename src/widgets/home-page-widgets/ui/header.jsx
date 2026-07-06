@@ -59,8 +59,6 @@ export const Header = () => {
               type="button"
               className="block cursor-pointer p-1"
               onClick={toggleMenu}
-              aria-expanded={isMenuOpen}
-              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             >
               <svg
                 width="30"
