@@ -60,7 +60,7 @@ export const OurProjects = () => {
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
-          <div className="p-6 text-center flex flex-col items-center">
+          <div className="p-6 text-center flex flex-col items-center hover:bg-primary-hover transition-colors hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer">
             <h3 className="text-[20px] font-bold text-dark mb-1">
               Red Finger Building
             </h3>
@@ -76,7 +76,7 @@ export const OurProjects = () => {
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
-          <div className="p-6 text-center flex flex-col items-center">
+          <div className="p-6 text-center flex flex-col items-center hover:bg-primary-hover transition-colors hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer">
             <h3 className="text-[20px] font-bold text-dark mb-1">
               Cubes Building
             </h3>
@@ -92,7 +92,7 @@ export const OurProjects = () => {
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
-          <div className="p-6 text-center flex flex-col items-center">
+          <div className="p-6 text-center flex flex-col items-center hover:bg-primary-hover transition-colors hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer">
             <h3 className="text-[20px] font-bold text-dark mb-1">
               The Pencil Building
             </h3>
@@ -105,7 +105,7 @@ export const OurProjects = () => {
         <span className="text-xl md:text-[28px] font-bold text-dark">
           Explore all our works
         </span>
-        <button className="w-full sm:w-auto bg-primary text-white font-bold uppercase tracking-wider text-sm py-4 px-10 rounded hover:bg-primary-hover transition-colors cursor-pointer">
+        <button className="w-full sm:w-auto bg-primary text-white font-bold uppercase tracking-wider text-sm py-4 px-10 rounded hover:bg-primary-hover transition-colors hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer">
           View portfolio
         </button>
       </div>

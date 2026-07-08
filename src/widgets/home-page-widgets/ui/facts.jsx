@@ -154,7 +154,7 @@ export const Facts = () => {
           <span className="text-xl md:text-[28px] font-bold text-dark">
             Explore all our news posts
           </span>
-          <button className="w-full sm:w-auto bg-primary text-white font-bold uppercase tracking-wider text-sm py-4 px-10 rounded hover:bg-primary-hover transition-colors cursor-pointer">
+          <button className="w-full sm:w-auto bg-primary text-white font-bold uppercase tracking-wider text-sm py-4 px-10 rounded hover:bg-primary-hover transition-colors hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer">
             View all news
           </button>
         </div>
