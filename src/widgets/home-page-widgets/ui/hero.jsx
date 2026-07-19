@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState} from "react";
 import { bgHeader } from "@/shared/assets";
 
 const SLIDES = [
