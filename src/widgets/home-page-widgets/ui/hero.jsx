@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import classNames from "classnames";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -100,11 +101,12 @@ export const Hero = () => {
                 className="flex flex-col gap-3 w-28 md:w-44.5 cursor-pointer group"
               >
                 <span
-                  className={`text-xl md:text-[28px] font-bold text-white transition-opacity ${
-                    index === activeIndex
-                      ? "opacity-100"
-                      : "opacity-60 group-hover:opacity-80"
-                  }`}
+                  className={classNames("text-xl md:text-[28px] font-bold text-white transition-opacity",
+                    {
+                      "opacity-100": index === activeIndex,
+                      "opacity-60 group-hover:opacity-80": index !== activeIndex,
+                    },
+                  )}
                 >
                   {item.num}
                 </span>
