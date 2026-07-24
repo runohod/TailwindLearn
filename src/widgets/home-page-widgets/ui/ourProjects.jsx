@@ -1,14 +1,10 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
-
-import "swiper/css";
-import "swiper/css/navigation";
-
 import {
   redFingerBuilding,
   cubesBuilding,
   thePencilBuilding,
 } from "@/shared/assets";
+
+import { Carousel } from "@/shared/ui/carousel";
 
 const PROJECTS_DATA = [
   {
@@ -29,7 +25,7 @@ const PROJECTS_DATA = [
     category: "Stores & Malls",
     image: thePencilBuilding,
   },
-    {
+  {
     id: 4,
     title: "The Pencil Building",
     category: "Stores & Malls",
@@ -84,48 +80,36 @@ export const OurProjects = () => {
         </div>
       </div>
 
-      <div className="max-w-1200 mx-auto px-4 xl:px-0 mb-12 md:mb-20">
-        <Swiper
-          modules={[Navigation]}
-          loop={true}
-          navigation={{
-            prevEl: ".prev",
-            nextEl: ".next",
-          }}
-          breakpoints={{
-            640: {
-              slidesPerView: 2,
-              spaceBetween: 24,
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 30,
-            },
-          }}
-        >
-          {PROJECTS_DATA.map((project) => (
-            <SwiperSlide key={project.id} >
-              <div className="bg-white rounded shadow-sm overflow-hidden flex flex-col group cursor-pointer hover:shadow-xl transition-shadow w-full h-full">
-                <div className="overflow-hidden aspect-[390/340]">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
-                <div className="p-6 text-center flex flex-col items-center hover:bg-primary-hover transition-colors hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer flex-grow">
-                  <h3 className="text-[20px] font-bold text-dark mb-1">
-                    {project.title}
-                  </h3>
-                  <p className="text-[14px] text-text-comment">
-                    {project.category}
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
+      <Carousel
+        className="max-w-1200 mx-auto px-4 xl:px-0 mb-12 md:mb-20"
+        slides={PROJECTS_DATA}
+        loop={true}
+        navigation={{ prevEl: ".prev", nextEl: ".next" }}
+        breakpoints={{
+          640: { slidesPerView: 2, spaceBetween: 24 },
+          1024: { slidesPerView: 3, spaceBetween: 30 },
+        }}
+        getSlideKey={(slide) => slide.id}
+        renderSlide={(project) => (
+          <div className="bg-white rounded shadow-sm overflow-hidden flex flex-col group cursor-pointer hover:shadow-xl transition-shadow w-full h-full">
+            <div className="overflow-hidden aspect-[390/340]">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            <div className="p-6 text-center flex flex-col items-center hover:bg-primary-hover transition-colors hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer flex-grow">
+              <h3 className="text-[20px] font-bold text-dark mb-1">
+                {project.title}
+              </h3>
+              <p className="text-[14px] text-text-comment">
+                {project.category}
+              </p>
+            </div>
+          </div>
+        )}
+      />
 
       <div className="flex flex-col sm:flex-row items-center justify-center text-center gap-6 md:gap-10 px-4">
         <span className="text-xl md:text-[28px] font-bold text-dark">
