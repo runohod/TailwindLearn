@@ -8,33 +8,23 @@ export const Carousel = ({
   slides = [],
   renderSlide,
   getSlideKey,
-  breakpoints,
-  navigation,
-  loop = true,
-  spaceBetween = 0,
-  slidesPerView = 1,
-  className = "",
+  slideClassName = "",
+  modules = [Navigation],
+  ...swiperProps
 }) => {
   return (
-    <div className={className}>
-      <Swiper
-        modules={[Navigation]}
-        loop={loop}
-        navigation={navigation}
-        breakpoints={breakpoints}
-        spaceBetween={spaceBetween}
-        slidesPerView={slidesPerView}
-      >
-        {slides.map((slide, index) => {
-          const key = getSlideKey ? getSlideKey(slide) : index;
-          
-          return (
-            <SwiperSlide key={key}>
-              {renderSlide(slide)}
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
-    </div>
+    <Swiper modules={modules} {...swiperProps}>
+      {slides.map((slide, index) => {
+        const key = getSlideKey
+          ? getSlideKey(slide, index)
+          : slide.id ?? index;
+
+        return (
+          <SwiperSlide key={key} className={slideClassName}>
+            {renderSlide(slide, index)}
+          </SwiperSlide>
+        );
+      })}
+    </Swiper>
   );
 };
