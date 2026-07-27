@@ -17,7 +17,7 @@ export const Services = () => {
       </div>
 
       <div className="max-w-1200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-12 md:mb-20 mx-auto px-4 xl:px-0">
-        <div className="bg-white border border-[#E5E8ED] rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow cursor-pointer group">
+        <div className="bg-white border border-[#E5E8ED] rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow cursor-pointer group hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer">
           <svg
             width="52"
             height="52"
@@ -43,7 +43,7 @@ export const Services = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-[#E5E8ED] rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow cursor-pointer group">
+        <div className="bg-white border border-[#E5E8ED] rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow cursor-pointer group hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer">
           <svg
             width="52"
             height="52"
@@ -73,7 +73,7 @@ export const Services = () => {
           </div>
         </div>
 
-        <div className="relative overflow-hidden rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 cursor-pointer group">
+        <div className="relative overflow-hidden rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 cursor-pointer group hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer">
           <img
             src={interiorDesign}
             alt="Interior Design"
@@ -111,7 +111,7 @@ export const Services = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-[#E5E8ED] rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow cursor-pointer group">
+        <div className="bg-white border border-[#E5E8ED] rounded shadow-sm aspect-square flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow cursor-pointer group hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer">
           <svg
             width="52"
             height="52"
@@ -135,7 +135,7 @@ export const Services = () => {
         <span className="text-xl md:text-[28px] font-bold text-dark max-w-sm sm:max-w-none">
           Learn more about our services
         </span>
-        <button className="w-full sm:w-auto bg-primary text-white font-bold uppercase tracking-wider text-sm py-4 px-10 rounded hover:bg-primary-hover transition-colors">
+        <button className="w-full sm:w-auto bg-primary text-white font-bold uppercase tracking-wider text-sm py-4 px-10 rounded hover:bg-primary-hover transition-colors hover:bg-orange-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-600/30 active:scale-95 active:translate-y-0 cursor-pointer">
           View services
         </button>
       </div>
