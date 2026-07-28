@@ -1,0 +1,1 @@
+export { InteriorDesign } from "./ui/interiorDesign"
