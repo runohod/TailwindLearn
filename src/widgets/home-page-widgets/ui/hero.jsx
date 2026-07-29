@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { clsx } from 'clsx';
-import { bgHeader } from "@/shared/assets";
+import { bgHeader } from "@/shared/assets/home";
 import { Carousel } from "@/shared/ui/carousel";
 
 const SLIDES = [

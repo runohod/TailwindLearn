@@ -6,7 +6,7 @@ import {
   builderFacts,
   helmetFacts,
   handFacts,
-} from "@/shared/assets";
+} from "@/shared/assets/home";
 
 export const Facts = () => {
   return (

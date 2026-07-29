@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { video } from "@/shared/assets";
+import { video } from "@/shared/assets/home";
 
 export const About = () => {
   const [isPlaying, setIsPlaying] = useState(false);

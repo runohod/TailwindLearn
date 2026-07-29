@@ -1,4 +1,4 @@
-import { interiorDesign, bgServices } from "@/shared/assets";
+import { interiorDesign, bgServices } from "@/shared/assets/home";
 
 export const Services = () => {
   return (
