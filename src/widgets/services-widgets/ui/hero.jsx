@@ -25,11 +25,11 @@ export const Hero = () => {
             Services
           </h1>
 
-          <p className="text-base text-gray-600 opacity-90 md:text-xl md:leading-relaxed">
+          <div className="text-base text-gray-600 opacity-90 md:text-xl md:leading-relaxed">
             If you are looking for a full-service construction company, look
             to Createx Construction Bureau. We are doing our best
             to be a partner for all of your construction needs.
-          </p>
+          </div>
         </div>
       </div>
     </section>

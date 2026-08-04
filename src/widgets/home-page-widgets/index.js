@@ -1,5 +1,5 @@
 export { About } from "./ui/about";
-export { Header } from "./ui/header";
+export { Header } from "../../app/layouts/header";
 export { Hero } from "./ui/hero";
 export { Values } from "./ui/values";
 export { AskForm } from "./ui/askForm";
