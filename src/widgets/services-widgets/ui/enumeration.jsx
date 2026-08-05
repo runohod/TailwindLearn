@@ -4,7 +4,7 @@ import {
   interiorDesign,
   repairs,
 } from "@/shared/assets/sevices";
-import { ContentInfo } from "@/shared/ui/contentInfo";
+import { ContentInfo } from "@/widgets/services-widgets/ui/contentInfo";
 
 const servicesData = [
   {
