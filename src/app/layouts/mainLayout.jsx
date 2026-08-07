@@ -1,11 +1,13 @@
-import { Header } from "@/widgets/home-page-widgets/ui/header";
-import { Footer } from "@/widgets/home-page-widgets/ui/footer";
+import { Outlet } from "react-router-dom";
 
-export const MainLayout = ({ children }) => {
+import { Header } from "@/app/layouts/header";
+import { Footer } from "@/app/layouts/footer";
+
+export const MainLayout = () => {
   return (
     <div>
       <Header />
-      {children}
+      <Outlet />
       <Footer />
     </div>
   );

@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
-import { logo, chat, phone } from "@/shared/assets";
+
+import { logo, chat, phone } from "@/shared/assets/home";
 
 const nav_links = [
   { label: "About Us", href: "#" },
-  { label: "Services", href: "#" },
+  { label: "Services", href: "/services" },
   { label: "Work", href: "#" },
   { label: "News", href: "#" },
   { label: "Contacts", href: "#" },
@@ -21,7 +23,9 @@ export const Header = () => {
       <div className="container-custom py-4 min-[768px]:my-5 flex justify-between items-center gap-4 flex-wrap min-[768px]:flex-nowrap">
         <div className="flex items-center gap-6 min-[1200px]:gap-12">
           <div className="shrink-0">
-            <img src={logo} alt="logo" className="w-32.5 h-5.5" />
+            <Link to="/">
+              <img src={logo} alt="logo" className="w-32.5 h-5.5" />
+            </Link>
           </div>
 
           <nav className="font-bold hidden min-[768px]:block">
@@ -32,9 +36,9 @@ export const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <Link to="/services" className="hover:text-primary transition-colors">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="hover:text-primary transition-colors">
@@ -117,13 +121,13 @@ export const Header = () => {
           <ul className="flex flex-col gap-4 font-bold text-base text-center">
             {nav_links.map((link) => (
               <li key={link.label}>
-                <a
-                  href={link.href}
+                <Link
+                  to={link.label}
                   className="block py-2 text-dark hover:text-primary transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

@@ -2,7 +2,7 @@ import {
   redFingerBuilding,
   cubesBuilding,
   thePencilBuilding,
-} from "@/shared/assets";
+} from "@/shared/assets/home";
 
 import { Carousel } from "@/shared/ui/carousel";
 

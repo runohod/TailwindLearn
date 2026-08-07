@@ -7,7 +7,7 @@ import {
   sunsetRealty,
   handshake,
   profilePartners,
-} from "@/shared/assets";
+} from "@/shared/assets/home";
 
 export const Partners = () => {
   return (

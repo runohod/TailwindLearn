@@ -1,4 +1,4 @@
-import { logoFooter } from "@/shared/assets";
+import { logoFooter } from "@/shared/assets/home";
 
 export const Footer = () => {
   return (

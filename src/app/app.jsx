@@ -1,10 +1,19 @@
-import { MainLayout } from "@/app/layouts/mainLayout"
-import { HomePage } from "@/pages/homePage"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { MainLayout } from "@/app/layouts/mainLayout";
+
+import { routes } from "./routes";
 
 export function App() {
   return (
-    <MainLayout>
-      <HomePage />
-    </MainLayout>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<MainLayout />}>
+          {routes.map((route) => (
+            <Route key={route.path} path={route.path} element={route.element} />
+          ))}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }

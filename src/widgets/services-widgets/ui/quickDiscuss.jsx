@@ -3,7 +3,7 @@ import { bgQuickDiscuss } from "@/shared/assets/home";
 export const QuickDiscuss = () => {
   return (
     <section
-      className="w-full min-h-[600px] md:min-h-800 bg-cover bg-center bg-no-repeat flex items-center mt-16 md:mt-24 lg:mt-120 py-12 md:py-0"
+      className="w-full min-h-[600px] md:min-h-800 bg-cover bg-center bg-no-repeat flex items-center  py-12 md:py-0"
       style={{ backgroundImage: `url(${bgQuickDiscuss})` }}
     >
       <div className="container-custom flex justify-center lg:justify-end px-4 w-full">
@@ -54,7 +54,7 @@ export const QuickDiscuss = () => {
                 Message*
               </label>
               <input
-                type="email"
+                type="text"
                 placeholder="Your message"
                 className="w-full h-13 px-4 bg-text-form border border-[#D7D9DF] rounded text-[16px] text-dark placeholder-[#9A9CA5] focus:outline-none focus:border-primary transition-colors"
               />
